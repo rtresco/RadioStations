@@ -1,6 +1,6 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>My Radio Stations</title><style>
-:root{--bg:#f5f1eb;--card:#fff;--ink:#2e211c;--muted:#7d7069;--accent:#6d4434;--line:#e5ddd5;--shadow:0 8px 24px rgba(62,37,29,.08)}
+<title>Radio Stations</title><style>
+:root{--bg:#000000;--card:#fff;--ink:#2e211c;--muted:#7d7069;--accent:#6d4434;--line:#e5ddd5;--shadow:0 8px 24px rgba(62,37,29,.08)}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
 header{position:sticky;top:0;z-index:5;background:rgba(245,241,235,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
 .wrap{max-width:1250px;margin:auto;padding:22px 24px}.top{display:flex;align-items:end;justify-content:space-between;gap:18px;flex-wrap:wrap}
@@ -21,8 +21,8 @@ audio::-webkit-media-controls-time-remaining-display {
   display: none !important;
 }
 
-</style><script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script></head><body><header><div class="wrap"><div class="top"><div><h1>My Radio Stations</h1><div class="sub">A clean little home for your station collection.</div></div><div class="stats" id="stats"></div></div>
-<div class="controls"><input id="search" placeholder="Search stations or folders…"><select id="folder"><option value="">All folders</option><option value="__TOP__">Top Level / No Folder</option></select><button id="all" class="active">All</button><button id="favs">★ Favorites</button></div></div></header>
+</style><script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script></head><body><header><div class="wrap"><div class="top"><div><h1>Radio Stations</h1><div class="sub"></div></div><div class="stats" id="stats"></div></div>
+<div class="controls"><input id="search" placeholder="Search stations or folders…"><select id="folder"><option value="">All folders</option><option value="__TOP__">Top Level</option></select><button id="all" class="active">All</button><button id="favs">★ Favorites</button></div></div></header>
 <main class="wrap"><div id="grid" class="grid"></div></main><div id="diag" style="display:none;position:fixed;left:14px;right:14px;bottom:58px;z-index:9;
 background:#fff8ef;border:1px solid #d9b88f;border-radius:12px;padding:10px 12px;
 font-size:12px;line-height:1.35;color:#5b3a2b;box-shadow:0 8px 24px rgba(0,0,0,.12)">
