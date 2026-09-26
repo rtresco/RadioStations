@@ -26,7 +26,7 @@ audio::-webkit-media-controls-time-remaining-display {
 <main class="wrap"><div id="grid" class="grid"></div></main><div id="diag" style="display:none;position:fixed;left:14px;right:14px;bottom:58px;z-index:9;
 background:#fff8ef;border:1px solid #d9b88f;border-radius:12px;padding:10px 12px;
 font-size:12px;line-height:1.35;color:#5b3a2b;box-shadow:0 8px 24px rgba(0,0,0,.12)">
-<strong>Playback diagnostic:</strong> <span id="diagText"></span>
+<span id="diagText"></span>
 <button onclick="document.getElementById('diag').style.display='none'"
 style="float:right;padding:2px 7px;border-radius:7px">×</button></div>
 <footer id="player"><div class="now" id="now"></div><audio id="audio" controls></audio></footer>
@@ -38,11 +38,45 @@ function render(){const q=search.value.trim().toLowerCase(),f=folder.value;const
 grid.innerHTML=list.length?list.map(s=>`<article class="card">${s.logo?`<img class="logo" src="${s.logo}" alt="">`:`<div class="logo blank">♪</div>`}<div><div class="star ${s.favorite?'yes':''}">★</div><div class="name">${esc(s.name)}</div><div class="folder">${esc(s.parent||'Top Level')}</div><div class="actions">${s.stream?`<button class="play" onclick="playStation(${stations.indexOf(s)})">▶ Play</button>`:''}${s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">Website ↗</a>`:''}</div></div></article>`).join(''):`<div class="empty">No stations match your filters.</div>`}
 let hlsPlayer=null;
 const diag=document.getElementById('diag'), diagText=document.getElementById('diagText');
-function showDiag(msg){diagText.textContent=msg;diag.style.display='block'}
-function hideDiag(){diag.style.display='none';diagText.textContent=''}
+let diagTimer=null;
+function showDiag(){
+  clearTimeout(diagTimer);
+  diagText.textContent='Station currently offline.';
+  diag.style.display='block';
+  diagTimer=setTimeout(hideDiag,4000);
+}
+function hideDiag(){
+  clearTimeout(diagTimer);
+  diagTimer=null;
+  diag.style.display='none';
+  diagText.textContent='';
+}
+function stationOffline(stationName){
+  if(hlsPlayer){hlsPlayer.destroy();hlsPlayer=null}
+  audio.pause();
+  audio.removeAttribute('src');
+  audio.load();
+  hideDiag();
+  clearTimeout(diagTimer);
+  diagTimer=null;
+  now.style.maxWidth='320px';
+  now.textContent='Offline: '+stationName;
+  audio.style.display='';
+  audio.disabled=true;
+  audio.style.opacity='.45';
+  audio.style.pointerEvents='none';
+  player.style.display='flex';
+}
 function isHlsUrl(url){return /\.m3u8(?:\/)?(?:$|[?#])/i.test(url||'')}
 function resetPlayer(){
   if(hlsPlayer){hlsPlayer.destroy();hlsPlayer=null}
+  clearTimeout(diagTimer);
+  diagTimer=null;
+  audio.style.display='';
+  audio.disabled=false;
+  audio.style.opacity='';
+  audio.style.pointerEvents='';
+  now.style.maxWidth='320px';
   audio.pause(); audio.removeAttribute('src'); audio.load(); hideDiag();
 }
 function explainHlsError(data){
@@ -61,7 +95,8 @@ audio.addEventListener('error',()=>{
   const e=audio.error;
   if(!e) return;
   const meanings={1:'playback was aborted',2:'network error while fetching audio',3:'audio decoding error',4:'stream format/source not supported by this browser'};
-  showDiag(`Browser audio error ${e.code}: ${meanings[e.code]||'unknown media error'}.`);
+  const label=now.textContent.replace(/^(Loading|Playing|Manifest loaded):\s*/, '') || 'Station';
+  stationOffline(label);
 });
 audio.addEventListener('playing',()=>hideDiag());
 
@@ -72,8 +107,7 @@ window.playStation=i=>{
   const startPlayback=()=>{
     audio.play().then(()=>{now.textContent='Playing: '+s.name;hideDiag()})
       .catch(err=>{
-        now.textContent='Ready: '+s.name+' — press play below';
-        showDiag(`The stream loaded, but automatic playback was refused or playback did not start: ${err.name}: ${err.message}`);
+        stationOffline(s.name);
       });
   };
 
@@ -83,25 +117,25 @@ window.playStation=i=>{
       hlsPlayer.on(Hls.Events.MANIFEST_LOADED,()=>{now.textContent='Manifest loaded: '+s.name});
       hlsPlayer.on(Hls.Events.MANIFEST_PARSED,startPlayback);
       hlsPlayer.on(Hls.Events.ERROR,(event,data)=>{
-        showDiag(explainHlsError(data));
         if(!data.fatal)return;
         now.textContent='Playback failed: '+s.name;
         // Do not blindly restart fatal network errors; report them instead.
         if(data.type===Hls.ErrorTypes.MEDIA_ERROR){
-          try{hlsPlayer.recoverMediaError()}catch(e){}
+          try{hlsPlayer.recoverMediaError();return}catch(e){}
         }
+        stationOffline(s.name);
       });
       try{
         hlsPlayer.loadSource(s.stream);
         hlsPlayer.attachMedia(audio);
       }catch(err){
-        showDiag(`Could not initialize HLS playback: ${err.name}: ${err.message}`);
+        stationOffline(s.name);
       }
     }else if(audio.canPlayType('application/vnd.apple.mpegurl')){
       audio.src=s.stream; audio.addEventListener('loadedmetadata',startPlayback,{once:true}); audio.load();
     }else{
       now.textContent='Playback failed: '+s.name;
-      showDiag('This browser does not provide HLS playback and hls.js could not be used.');
+      stationOffline(s.name);
     }
   }else{
     audio.src=s.stream; audio.load(); startPlayback();
