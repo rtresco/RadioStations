@@ -618,7 +618,7 @@
     },
     {
       "name": "Def Leppard",
-      "stream": "http://abm22.com.au:8000/CONTAINER101",
+      "stream": "https://free.rcast.net/259701",
       "url": "",
       "logo": "images/def-leppard.png",
       "favorite": true,
@@ -631,7 +631,7 @@
     },
     {
       "name": "Guns N' Roses",
-      "stream": "http://abm22.com.au:8000/CONTAINER109",
+      "stream": "https://stream.rcast.net/259743",
       "url": "",
       "logo": "images/guns-n-roses-radio-sydney.png",
       "favorite": true,
@@ -644,7 +644,7 @@
     },
     {
       "name": "Led Zeppelin ",
-      "stream": "http://abm21.com.au:8000/CONTAINER147",
+      "stream": "https://stream.rcast.net/259549",
       "url": "",
       "logo": "images/led-zeppelin.png",
       "favorite": true,
@@ -657,7 +657,7 @@
     },
     {
       "name": "R.E.M.",
-      "stream": "http://abm22.com.au:8000/CONTAINER87",
+      "stream": "https://stream.rcast.net/259657",
       "url": "",
       "logo": "images/r-e-m.png",
       "favorite": true,
@@ -669,7 +669,7 @@
     },
     {
       "name": "Red Hot Chili Peppers ",
-      "stream": "http://abm22.com.au:8000/CONTAINER129",
+      "stream": "https://stream.rcast.net/259665",
       "url": "",
       "logo": "images/red-hot-chili-peppers.png",
       "favorite": true,
@@ -681,7 +681,7 @@
     },
     {
       "name": "90s Alternative",
-      "stream": "http://abm21.com.au:8000/CONTAINER91",
+      "stream": "https://stream.rcast.net/259831",
       "url": "",
       "logo": "images/90s-alternative.png",
       "favorite": true,
@@ -694,7 +694,7 @@
     },
     {
       "name": "Old School Rap",
-      "stream": "http://abm21.com.au:8000/CONTAINER69",
+      "stream": "https://stream.rcast.net/260373",
       "url": "",
       "logo": "images/old-school-rap.png",
       "favorite": false,
@@ -706,7 +706,7 @@
     },
     {
       "name": "80s Hair Metal",
-      "stream": "http://abm21.com.au:8000/CONTAINER16",
+      "stream": "https://stream.rcast.net/265019",
       "url": "",
       "logo": "images/80s-hair-metal.png",
       "favorite": false,
@@ -721,7 +721,7 @@
     },
     {
       "name": "80s Alternative ",
-      "stream": "http://abm21.com.au:8000/CONTAINER87",
+      "stream": "https://stream.rcast.net/259801",
       "url": "",
       "logo": "images/80s-alternative.png",
       "favorite": true,
@@ -734,7 +734,7 @@
     },
     {
       "name": "Tom Petty",
-      "stream": "http://abm22.com.au:8000/CONTAINER132",
+      "stream": "https://stream.rcast.net/259667",
       "url": "",
       "logo": "images/tom-petty.png",
       "favorite": true,
@@ -746,7 +746,7 @@
     },
     {
       "name": "Van Halen",
-      "stream": "http://abm22.com.au:8000/CONTAINER112",
+      "stream": "https://stream.rcast.net/259666",
       "url": "",
       "logo": "images/van-halen.png",
       "favorite": true,
@@ -759,7 +759,7 @@
     },
     {
       "name": "U2",
-      "stream": "http://abm21.com.au:8000/CONTAINER169",
+      "stream": "https://stream.rcast.net/259606",
       "url": "",
       "logo": "images/u2.png",
       "favorite": true,
