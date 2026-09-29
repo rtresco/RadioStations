@@ -113,7 +113,7 @@ function render(){
     if(q&&!s.name.toLowerCase().includes(q))continue;
     list.push(i);
   }
-  list.sort((a,b)=>(stations[a].type==='Internet'?0:1)-(stations[b].type==='Internet'?0:1)||stationGenreRank(stations[a])-stationGenreRank(stations[b])||stations[a].name.localeCompare(stations[b].name));
+  list.sort((a,b)=>stationGenreRank(stations[a])-stationGenreRank(stations[b])||(stations[a].type==='Internet'?0:1)-(stations[b].type==='Internet'?0:1)||stations[a].name.localeCompare(stations[b].name));
   stats.textContent=`${list.length} of ${stations.length} stations`;
   grid.innerHTML=list.length?list.map(i=>{
     const s=stations[i],gs=Array.isArray(s.genres)?s.genres:[];
