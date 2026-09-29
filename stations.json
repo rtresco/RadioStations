@@ -1,0 +1,3729 @@
+{
+  "genreReference": [
+    "90s",
+    "Alternative",
+    "Rock",
+    "Country",
+    "Classic Rock",
+    "80s",
+    "Hair Metal",
+    "Hard Rock",
+    "Pop",
+    "New Wave",
+    "Grunge",
+    "Indie",
+    "Metal",
+    "Soft Rock",
+    "2000s",
+    "Garage Rock",
+    "Blues",
+    "Soul/Funk",
+    "Acoustic",
+    "60s",
+    "70s",
+    "Hip-Hop/Rap",
+    "Old School",
+    "Funk",
+    "Southern Rock",
+    "Country Rock",
+    "Disco",
+    "Dance",
+    "Punk",
+    "Classic Hits",
+    "College/Freeform",
+    "Americana",
+    "Psychedelic Rock"
+  ],
+  "stations": [
+    {
+      "name": "90s Alt Rock",
+      "stream": "http://bigrradio.cdnstream1.com/5107_128",
+      "url": "https://aceradio.net/",
+      "logo": "images/90s-alt-rock.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "90s",
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "New Country",
+      "stream": "http://bigrradio.cdnstream1.com/5113_128",
+      "url": "https://aceradio.net/",
+      "logo": "images/new-country.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
+      "name": "Classic Rock Channel",
+      "stream": "http://bigrradio.cdnstream1.com/5118_128",
+      "url": "https://aceradio.net/",
+      "logo": "images/classic-rock-channel.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Classic Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Alternative Channel",
+      "stream": "http://bigrradio.cdnstream1.com/5116_128",
+      "url": "https://aceradio.net/",
+      "logo": "images/alternative-channel.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Awesome 80s Channel",
+      "stream": "http://bigrradio.cdnstream1.com/5117_128",
+      "url": "https://aceradio.net/",
+      "logo": "images/awesome-80s-channel.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "80s"
+      ]
+    },
+    {
+      "name": "Hair Band Channel",
+      "stream": "http://bigrradio.cdnstream1.com/5119_128",
+      "url": "https://aceradio.net/",
+      "logo": "images/hair-band-channel.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Hair Metal",
+        "Hard Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Hitz Channel",
+      "stream": "http://bigrradio.cdnstream1.com/5121_128",
+      "url": "https://aceradio.net/",
+      "logo": "images/hitz-channel.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Pop"
+      ]
+    },
+    {
+      "name": "Mix Channel",
+      "stream": "http://bigrradio.cdnstream1.com/5122_128",
+      "url": "https://aceradio.net/",
+      "logo": "images/mix-channel.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Pop",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Super Rock Mix",
+      "stream": "http://bigrradio.cdnstream1.com/5126_128",
+      "url": "https://aceradio.net/",
+      "logo": "images/super-rock-mix.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "name": "Maximum 90's",
+      "stream": "https://hls-01-maximum.hostingradio.ru/maximum90/playlist.m3u8",
+      "url": "https://maximum.ru/online",
+      "logo": "images/maximum-90-s.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "90s"
+      ]
+    },
+    {
+      "name": "Maximum Covers",
+      "stream": "https://hls-01-maximum.hostingradio.ru/maxcover/playlist.m3u8",
+      "url": "https://maximum.ru/online",
+      "logo": "images/maximum-covers.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Rock",
+        "Alternative"
+      ]
+    },
+    {
+      "name": "Maximum Depeche Mode",
+      "stream": "https://hls-01-maximum.hostingradio.ru/depechemode/playlist.m3u8",
+      "url": "https://maximum.ru/online",
+      "logo": "images/maximum-depeche-mode.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Alternative",
+        "New Wave",
+        "Pop"
+      ]
+    },
+    {
+      "name": "Maximum Grunge ",
+      "stream": "https://hls-01-maximum.hostingradio.ru/grunge/playlist.m3u8",
+      "url": "https://maximum.ru/online",
+      "logo": "images/maximum-grunge.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Grunge",
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Maximum Heavy 80's",
+      "stream": "https://hls-01-maximum.hostingradio.ru/max80/playlist.m3u8",
+      "url": "https://maximum.ru/online",
+      "logo": "images/maximum-heavy-80-s.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "80s"
+      ]
+    },
+    {
+      "name": "Maximum Indie",
+      "stream": "https://hls-01-maximum.hostingradio.ru/indie/playlist.m3u8",
+      "url": "https://maximum.ru/online",
+      "logo": "images/maximum-indie.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Indie",
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Maximum Linkin Park",
+      "stream": "https://hls-01-maximum.hostingradio.ru/linkinpark/playlist.m3u8",
+      "url": "https://maximum.ru/online",
+      "logo": "images/maximum-linkin-park.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Alternative",
+        "Hard Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Maximum Metallica",
+      "stream": "https://hls-01-maximum.hostingradio.ru/metallica/playlist.m3u8",
+      "url": "https://maximum.ru/online",
+      "logo": "images/maximum-metallica.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Metal",
+        "Hard Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Maximum Nirvana",
+      "stream": "https://hls-01-maximum.hostingradio.ru/nirvana/playlist.m3u8",
+      "url": "https://maximum.ru/online",
+      "logo": "images/maximum-nirvana.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Grunge",
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Maximum Ozzy",
+      "stream": "https://hls-01-maximum.hostingradio.ru/ozzy/playlist.m3u8",
+      "url": "https://maximum.ru/online",
+      "logo": "images/maximum-ozzy.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Metal",
+        "Hard Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Maximum Rugby",
+      "stream": "https://hls-01-maximum.hostingradio.ru/rugby/playlist.m3u8",
+      "url": "https://maximum.ru/online",
+      "logo": "images/maximum-rugby.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Rock",
+        "Alternative"
+      ]
+    },
+    {
+      "name": "Maximum Soft",
+      "stream": "https://hls-01-maximum.hostingradio.ru/maxsoft/playlist.m3u8",
+      "url": "https://maximum.ru/online",
+      "logo": "images/maximum-soft.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Soft Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Maximum Supernova ",
+      "stream": "https://hls-01-maximum.hostingradio.ru/maximum/playlist.m3u8",
+      "url": "https://maximum.ru/online",
+      "logo": "images/maximum-supernova.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Rock",
+        "Alternative"
+      ]
+    },
+    {
+      "name": "Maximum Millennium",
+      "stream": "https://hls-01-maximum.hostingradio.ru/millenium/playlist.m3u8",
+      "url": "https://maximum.ru/online",
+      "logo": "images/maximum-millennium.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "2000s"
+      ]
+    },
+    {
+      "name": "Maximum Red Hot Chili Peppers",
+      "stream": "https://hls-01-maximum.hostingradio.ru/maxrhcp/playlist.m3u8",
+      "url": "https://maximum.ru/online",
+      "logo": "images/maximum-red-hot-chili-peppers.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Maximum Rock Hits",
+      "stream": "https://hls-01-maximum.hostingradio.ru/rockhits/playlist.m3u8",
+      "url": "https://maximum.ru/online",
+      "logo": "images/maximum-rock-hits.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "name": "Guns N' Roses",
+      "stream": "https://stream.regenbogen2.de/gunsnroses/mp3-128/radiode",
+      "url": "https://www.rockfm.de/webradio/guns-n-roses-neu",
+      "logo": "images/guns-n-roses.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Hard Rock",
+        "Hair Metal",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Rolling Stones",
+      "stream": "https://stream.regenbogen2.de/rollingstones/mp3-128/radiode",
+      "url": "https://www.rockfm.de/webradio/rolling-stones",
+      "logo": "images/rolling-stones.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Classic Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Taylor Swift",
+      "stream": "http://mp3.planetradio.de/plrchannels/hqstars12.mp3",
+      "url": "https://www.planetradio.de/musik/webradio/88-taylor-swift-and-friends-radio.html",
+      "logo": "images/taylor-swift.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Pop",
+        "Country"
+      ]
+    },
+    {
+      "name": "FFH Country Radio",
+      "stream": "http://mp3.ffh.de/ffhchannels/hqcountry.mp3",
+      "url": "https://www.planetradio.de/musik/webradio/120-deutschlands-country-radio.html",
+      "logo": "images/ffh-country-radio.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
+      "name": "National",
+      "stream": "https://ouifm.ice.infomaniak.ch/ouifm-high.mp3",
+      "url": "http://www.ouifm.fr/",
+      "logo": "images/national.png",
+      "favorite": false,
+      "type": "On Air",
+      "genres": [
+        "Rock",
+        "Alternative"
+      ]
+    },
+    {
+      "name": "Classic Rock",
+      "stream": "https://ouifm3.ice.infomaniak.ch/ouifm3.mp3",
+      "url": "http://www.ouifm.fr/",
+      "logo": "images/classic-rock.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Classic Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Indie Rock",
+      "stream": "https://ouifm5.ice.infomaniak.ch/ouifm5.mp3",
+      "url": "http://www.ouifm.fr/",
+      "logo": "images/indie-rock.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Indie",
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Alternative Rock",
+      "stream": "https://ouifm2.ice.infomaniak.ch/ouifm2.mp3",
+      "url": "http://www.ouifm.fr/",
+      "logo": "images/alternative-rock.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Top of the Week",
+      "stream": "https://ouifmtopoftheweek.ice.infomaniak.ch/ouifmtopweek.mp3",
+      "url": "http://www.ouifm.fr/",
+      "logo": "images/top-of-the-week.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Rock",
+        "Alternative",
+        "Indie"
+      ]
+    },
+    {
+      "name": "Garage Rock",
+      "stream": "https://ouifmgaragerock.ice.infomaniak.ch/ouifmgaragerock-128.mp3",
+      "url": "http://www.ouifm.fr/",
+      "logo": "images/garage-rock.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Garage Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Girls Rock",
+      "stream": "https://ouifmgirlsrock.ice.infomaniak.ch/ouifmgirlsrock.mp3",
+      "url": "http://www.ouifm.fr/",
+      "logo": "images/girls-rock.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "name": "Blues 'n' Rock",
+      "stream": "https://ouifmbluesnrock.ice.infomaniak.ch/ouifmbluesnrock-128.mp3",
+      "url": "http://www.ouifm.fr/",
+      "logo": "images/blues-n-rock.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Blues",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Bring The Noise",
+      "stream": "https://ouifmbringthenoise.ice.infomaniak.ch/ouifmbringthenoise.mp3",
+      "url": "http://www.ouifm.fr/",
+      "logo": "images/bring-the-noise.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Alternative",
+        "Hard Rock",
+        "Metal",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Summertime",
+      "stream": "https://ouifmsummertime.ice.infomaniak.ch/ouifmsummertime.mp3",
+      "url": "http://www.ouifm.fr/",
+      "logo": "images/summertime.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Classic Rock",
+        "Pop",
+        "Rock",
+        "Soul/Funk"
+      ]
+    },
+    {
+      "name": "Acoustic",
+      "stream": "https://ouifmacoustic.ice.infomaniak.ch/ouifmacoustic.mp3",
+      "url": "http://www.ouifm.fr/",
+      "logo": "images/acoustic.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Acoustic"
+      ]
+    },
+    {
+      "name": "Woodstock Generation",
+      "stream": "https://ouifmwoodstock.ice.infomaniak.ch/ouifmwoodstock.mp3",
+      "url": "http://www.ouifm.fr/",
+      "logo": "images/woodstock-generation.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "60s",
+        "Classic Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Rock Ballads",
+      "stream": "https://ouifmlesslowsdurock.ice.infomaniak.ch/ouifmslowrock.mp3",
+      "url": "http://www.ouifm.fr/",
+      "logo": "images/rock-ballads.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Soft Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "60's Rock",
+      "stream": "https://ouifmrock60s.ice.infomaniak.ch/ouifmsixties.mp3",
+      "url": "http://www.ouifm.fr/",
+      "logo": "images/60-s-rock.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "60s",
+        "Rock"
+      ]
+    },
+    {
+      "name": "70's Rock",
+      "stream": "https://ouifmrock70s.ice.infomaniak.ch/ouifmseventies.mp3",
+      "url": "http://www.ouifm.fr/",
+      "logo": "images/70-s-rock.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "70s",
+        "Rock"
+      ]
+    },
+    {
+      "name": "80's Rock",
+      "stream": "https://ouifmrock80s.ice.infomaniak.ch/ouifmeighties.mp3",
+      "url": "http://www.ouifm.fr/",
+      "logo": "images/80-s-rock.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "80s",
+        "Rock"
+      ]
+    },
+    {
+      "name": "90's Rock",
+      "stream": "https://ouifmrock90s.ice.infomaniak.ch/ouifmnineties.mp3",
+      "url": "http://www.ouifm.fr/",
+      "logo": "images/90-s-rock.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "90s",
+        "Rock"
+      ]
+    },
+    {
+      "name": "2000's Rock",
+      "stream": "https://ouifmrock2000s.ice.infomaniak.ch/ouifmrock2000.mp3",
+      "url": "http://www.ouifm.fr/",
+      "logo": "images/2000-s-rock.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "2000s",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Rock 'n' Food",
+      "stream": "https://ouifmrocknfood.ice.infomaniak.ch/ouifmrocknfood.mp3",
+      "url": "http://www.ouifm.fr/",
+      "logo": "images/rock-n-food.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "name": "Def Leppard",
+      "stream": "http://abm22.com.au:8000/CONTAINER101",
+      "url": "",
+      "logo": "images/def-leppard.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Hard Rock",
+        "Hair Metal",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Guns N' Roses",
+      "stream": "http://abm22.com.au:8000/CONTAINER109",
+      "url": "",
+      "logo": "images/guns-n-roses-radio-sydney.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Hard Rock",
+        "Hair Metal",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Led Zeppelin ",
+      "stream": "http://abm21.com.au:8000/CONTAINER147",
+      "url": "",
+      "logo": "images/led-zeppelin.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Classic Rock",
+        "Hard Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "R.E.M.",
+      "stream": "http://abm22.com.au:8000/CONTAINER87",
+      "url": "",
+      "logo": "images/r-e-m.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Red Hot Chili Peppers ",
+      "stream": "http://abm22.com.au:8000/CONTAINER129",
+      "url": "",
+      "logo": "images/red-hot-chili-peppers.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "90s Alternative",
+      "stream": "http://abm21.com.au:8000/CONTAINER91",
+      "url": "",
+      "logo": "images/90s-alternative.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "90s",
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Old School Rap",
+      "stream": "http://abm21.com.au:8000/CONTAINER69",
+      "url": "",
+      "logo": "images/old-school-rap.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Hip-Hop/Rap",
+        "Old School"
+      ]
+    },
+    {
+      "name": "80s Hair Metal",
+      "stream": "http://abm21.com.au:8000/CONTAINER16",
+      "url": "",
+      "logo": "images/80s-hair-metal.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "80s",
+        "Hair Metal",
+        "Hard Rock",
+        "Rock",
+        "Metal"
+      ]
+    },
+    {
+      "name": "80s Alternative ",
+      "stream": "http://abm21.com.au:8000/CONTAINER87",
+      "url": "",
+      "logo": "images/80s-alternative.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "80s",
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Tom Petty",
+      "stream": "http://abm22.com.au:8000/CONTAINER132",
+      "url": "",
+      "logo": "images/tom-petty.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Classic Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Van Halen",
+      "stream": "http://abm22.com.au:8000/CONTAINER112",
+      "url": "",
+      "logo": "images/van-halen.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Hard Rock",
+        "Hair Metal",
+        "Rock"
+      ]
+    },
+    {
+      "name": "U2",
+      "stream": "http://abm21.com.au:8000/CONTAINER169",
+      "url": "",
+      "logo": "images/u2.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Jason Aldean",
+      "stream": "https://drive.uber.radio/uber/cmrjasonaldean/icecast.audio",
+      "url": "https://you.radio/station/country-jason-aldean",
+      "logo": "images/jason-aldean.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
+      "name": "REM",
+      "stream": "https://streaming.exclusive.radio/er/rem/icecast.audio",
+      "url": "https://you.radio/station/exclusiveradio-rem",
+      "logo": "images/rem.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "REM Hits",
+      "stream": "https://streaming.exclusive.radio/er/remhits/icecast.audio",
+      "url": "https://you.radio/station/exclusivehits-rem-hits",
+      "logo": "images/rem-hits.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Pop",
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Def Leppard",
+      "stream": "https://streaming.exclusive.radio/er/defleppard/icecast.audio",
+      "url": "https://you.radio/station/exclusiveradio-def-leppard",
+      "logo": "images/def-leppard-youradio.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Hard Rock",
+        "Hair Metal",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Taylor Swift",
+      "stream": "https://streaming.exclusive.radio/er/taylorswift/icecast.audio",
+      "url": "https://you.radio/station/exclusiveradio-taylor-swift",
+      "logo": "images/taylor-swift-youradio.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Pop",
+        "Country"
+      ]
+    },
+    {
+      "name": "Taylor Swift Hits",
+      "stream": "https://streaming.exclusive.radio/er/taylorswifthits/icecast.audio",
+      "url": "https://you.radio/station/exclusivehits-taylor-swift-hits",
+      "logo": "images/taylor-swift-hits.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Pop",
+        "Country"
+      ]
+    },
+    {
+      "name": "Tom Petty",
+      "stream": "https://streaming.exclusive.radio/er/tompetty/icecast.audio",
+      "url": "https://you.radio/station/exclusiveradio-tom-petty",
+      "logo": "images/tom-petty-youradio.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Classic Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Tom Petty Hits",
+      "stream": "https://streaming.exclusive.radio/er/tompettyhits/icecast.audio",
+      "url": "https://you.radio/station/exclusivehits-tom-petty-hits",
+      "logo": "images/tom-petty-hits.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Pop",
+        "Classic Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Nickelback",
+      "stream": "https://streaming.exclusive.radio/er-app/nickelback/icecast.audio",
+      "url": "https://you.radio/station/exclusiveradio-nickelback",
+      "logo": "images/nickelback.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Rock",
+        "Hard Rock"
+      ]
+    },
+    {
+      "name": "Aerosmith",
+      "stream": "http://streaming.exclusive.radio/er-app/aerosmith/icecast.audio",
+      "url": "https://you.radio/station/exclusiveradio-aerosmith",
+      "logo": "images/aerosmith.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Classic Rock",
+        "Hard Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Aerosmith Hits",
+      "stream": "https://streaming.exclusive.radio/er/aerosmithhits/icecast.audio",
+      "url": "https://you.radio/station/exclusivehits-aerosmith-hits",
+      "logo": "images/aerosmith-hits.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Pop",
+        "Classic Rock",
+        "Hard Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Prince",
+      "stream": "https://streaming.exclusive.radio/er/prince/icecast.audio",
+      "url": "https://you.radio/station/exclusiveradio-prince",
+      "logo": "images/prince.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Pop",
+        "Rock",
+        "Funk"
+      ]
+    },
+    {
+      "name": "Prince Hits",
+      "stream": "https://streaming.exclusive.radio/er/princehits/icecast.audio",
+      "url": "https://you.radio/station/exclusivehits-prince-hits",
+      "logo": "images/prince-hits.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Pop",
+        "Rock",
+        "Funk"
+      ]
+    },
+    {
+      "name": "Michael Jackson",
+      "stream": "https://streaming.exclusive.radio/er/michaeljackson/icecast.audio",
+      "url": "https://you.radio/station/exclusiveradio-michael-jackson",
+      "logo": "images/michael-jackson.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Pop"
+      ]
+    },
+    {
+      "name": "Michael Jackson Hits",
+      "stream": "https://streaming.exclusive.radio/er/michaeljacksonhits/icecast.audio",
+      "url": "https://you.radio/station/exclusivehits-michael-jackson-hits",
+      "logo": "images/michael-jackson-hits.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Pop"
+      ]
+    },
+    {
+      "name": "Led Zeppelin",
+      "stream": "https://streaming.exclusive.radio/er/ledzeppelin/icecast.audio",
+      "url": "https://you.radio/station/exclusiveradio-led-zeppelin",
+      "logo": "images/led-zeppelin-youradio.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Classic Rock",
+        "Hard Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Led Zeppelin Hits",
+      "stream": "https://streaming.exclusive.radio/er/ledzeppelinhits/icecast.audio",
+      "url": "https://you.radio/station/exclusivehits-led-zeppelin-hits",
+      "logo": "images/led-zeppelin-hits.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Pop",
+        "Classic Rock",
+        "Hard Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Duran Duran",
+      "stream": "https://streaming.exclusive.radio/er-app/duranduran/icecast.audio",
+      "url": "https://you.radio/station/exclusiveradio-duran-duran",
+      "logo": "images/duran-duran.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "New Wave",
+        "Pop"
+      ]
+    },
+    {
+      "name": "Duran Duran Hits",
+      "stream": "https://streaming.exclusive.radio/er/duranduranhits/icecast.audio",
+      "url": "https://you.radio/station/exclusivehits-duran-duran-hits",
+      "logo": "images/duran-duran-hits.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Pop",
+        "New Wave"
+      ]
+    },
+    {
+      "name": "U2",
+      "stream": "https://streaming.exclusive.radio/er/u2/icecast.audio",
+      "url": "https://you.radio/station/exclusiveradio-u2",
+      "logo": "images/u2-youradio.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "U2 Hits",
+      "stream": "https://streaming.exclusive.radio/er/u2hits/icecast.audio",
+      "url": "https://you.radio/station/exclusivehits-u2-hits",
+      "logo": "images/u2-hits.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Pop",
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "The Police",
+      "stream": "https://streaming.exclusive.radio/er/police/icecast.audio",
+      "url": "https://you.radio/station/exclusiveradio-the-police",
+      "logo": "images/the-police.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "New Wave",
+        "Rock"
+      ]
+    },
+    {
+      "name": "The Police Hits",
+      "stream": "https://streaming.exclusive.radio/er/policehits/icecast.audio",
+      "url": "https://you.radio/station/exclusivehits-the-police-hits",
+      "logo": "images/the-police-hits.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Pop",
+        "New Wave",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Eagles",
+      "stream": "https://streaming.exclusive.radio/er/eagles/icecast.audio",
+      "url": "https://you.radio/station/exclusiveradio-eagles",
+      "logo": "images/eagles.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Classic Rock",
+        "Soft Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Eagles Hits",
+      "stream": "https://streaming.exclusive.radio/er/eagleshits/icecast.audio",
+      "url": "https://you.radio/station/exclusivehits-eagles-hits",
+      "logo": "images/eagles-hits.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Pop",
+        "Classic Rock",
+        "Soft Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "David Bowie",
+      "stream": "https://streaming.exclusive.radio/er/davidbowie/icecast.audio",
+      "url": "https://you.radio/station/exclusiveradio-david-bowie",
+      "logo": "images/david-bowie.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Rock",
+        "Pop"
+      ]
+    },
+    {
+      "name": "David Bowie Hits",
+      "stream": "https://streaming.exclusive.radio/er/davidbowiehits/icecast.audio",
+      "url": "https://you.radio/station/exclusivehits-david-bowie-hits",
+      "logo": "images/david-bowie-hits.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Pop",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Black Sabbath",
+      "stream": "https://streaming.exclusive.radio/er/blacksabbath/icecast.audio",
+      "url": "https://you.radio/station/exclusiveradio-black-sabbath",
+      "logo": "images/black-sabbath.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Metal",
+        "Hard Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Black Crowes",
+      "stream": "https://streaming.exclusive.radio/er/theblackcrowes/icecast.audio",
+      "url": "https://you.radio/station/exclusiveradio-black-crowes",
+      "logo": "images/black-crowes.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Southern Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Brooks & Dunn",
+      "stream": "https://streaming.exclusive.radio/er/brooksanddunn/icecast.audio",
+      "url": "https://you.radio/station/exclusiveradio-brooks-dunn",
+      "logo": "images/brooks-and-dunn.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
+      "name": "Brooks & Dunn",
+      "stream": "https://drive.uber.radio/uber/cmrbrooksanddunn/icecast.audio",
+      "url": "https://you.radio/station/country-brooks-dunn",
+      "logo": "images/brooks-and-dunn-youradio.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
+      "name": "Garth Brooks",
+      "stream": "https://streaming.exclusive.radio/er/garthbrooks/icecast.audio",
+      "url": "https://you.radio/station/exclusiveradio-garth-brooks",
+      "logo": "images/garth-brooks.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
+      "name": "Garth Brooks",
+      "stream": "https://drive.uber.radio/uber/cmrgarthbrooks/icecast.audio",
+      "url": "https://you.radio/station/country-garth-brooks",
+      "logo": "images/garth-brooks-youradio.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
+      "name": "Beastie Boys",
+      "stream": "https://streaming.exclusive.radio/er/beastieboys/icecast.audio",
+      "url": "https://you.radio/station/exclusiveradio-beastie-boys",
+      "logo": "images/beastie-boys.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Hip-Hop/Rap",
+        "Alternative"
+      ]
+    },
+    {
+      "name": "Foo Fighters",
+      "stream": "https://streaming.exclusive.radio/er/foofighters/icecast.audio",
+      "url": "https://you.radio/station/exclusiveradio-foo-fighters",
+      "logo": "images/foo-fighters.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Guns N' Roses",
+      "stream": "https://streaming.exclusive.radio/er/gunsnroses/icecast.audio",
+      "url": "https://you.radio/station/exclusiveradio-guns-n-roses",
+      "logo": "images/guns-n-roses-youradio.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Hard Rock",
+        "Hair Metal",
+        "Rock"
+      ]
+    },
+    {
+      "name": "INXS",
+      "stream": "https://streaming.exclusive.radio/er/INXS/icecast.audio",
+      "url": "https://you.radio/station/exclusiveradio-inxs",
+      "logo": "images/inxs.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "New Wave",
+        "Rock",
+        "Pop"
+      ]
+    },
+    {
+      "name": "Heart",
+      "stream": "https://streaming.exclusive.radio/er/heart/icecast.audio",
+      "url": "https://you.radio/station/exclusiveradio-heart",
+      "logo": "images/heart.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Classic Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Kenny Chesney",
+      "stream": "https://streaming.exclusive.radio/er/kennychesney/icecast.audio",
+      "url": "https://you.radio/station/exclusiveradio-kenny-chesney",
+      "logo": "images/kenny-chesney.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
+      "name": "Kenny Chesney",
+      "stream": "https://drive.uber.radio/uber/cmrkennychesney/icecast.audio",
+      "url": "https://you.radio/station/country-kenny-chesney",
+      "logo": "images/kenny-chesney-youradio.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
+      "name": "Van Halen",
+      "stream": "https://streaming.exclusive.radio/er/vanhalen/icecast.audio",
+      "url": "https://you.radio/station/exclusiveradio-van-halen",
+      "logo": "images/van-halen-youradio.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Hard Rock",
+        "Hair Metal",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Pet Shop Boys",
+      "stream": "https://streaming.exclusive.radio/er/petshopboys/icecast.audio",
+      "url": "https://you.radio/station/exclusiveradio-pet-shop-boys",
+      "logo": "images/pet-shop-boys.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "New Wave",
+        "Pop"
+      ]
+    },
+    {
+      "name": "Pet Shop Boys Hits",
+      "stream": "https://streaming.exclusive.radio/er/petshopboyshits/icecast.audio",
+      "url": "https://you.radio/station/exclusivehits-pet-shop-boys-hits",
+      "logo": "images/pet-shop-boys-hits.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Pop",
+        "New Wave"
+      ]
+    },
+    {
+      "name": "Red Hot Chili Peppers",
+      "stream": "https://streaming.exclusive.radio/er/chilipeppers/icecast.audio",
+      "url": "https://you.radio/station/exclusiveradio-red-hot-chili-peppers",
+      "logo": "images/red-hot-chili-peppers-youradio.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Run-DMC",
+      "stream": "https://streaming.exclusive.radio/er/rundmc/icecast.audio",
+      "url": "https://you.radio/station/exclusiveradio-run-dmc",
+      "logo": "images/run-dmc.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Hip-Hop/Rap",
+        "Old School"
+      ]
+    },
+    {
+      "name": "Scorpions",
+      "stream": "https://streaming.exclusive.radio/er/scorpions/icecast.audio",
+      "url": "https://you.radio/station/exclusiveradio-scorpions",
+      "logo": "images/scorpions.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Hard Rock",
+        "Hair Metal",
+        "Rock"
+      ]
+    },
+    {
+      "name": "STP",
+      "stream": "https://streaming.exclusive.radio/er/stonetemplepilots/icecast.audio",
+      "url": "https://you.radio/station/exclusiveradio-stone-temple-pilots",
+      "logo": "images/stp.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Grunge",
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Tears For Fears",
+      "stream": "https://streaming.exclusive.radio/er/tearsforfears/icecast.audio",
+      "url": "https://you.radio/station/exclusiveradio-tears-for-fears",
+      "logo": "images/tears-for-fears.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "New Wave",
+        "Pop"
+      ]
+    },
+    {
+      "name": "80's Country",
+      "stream": "https://drive.uber.radio/uber/cmr80scountry/icecast.audio",
+      "url": "https://you.radio/station/country-80s-country",
+      "logo": "images/80-s-country.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "80s",
+        "Country"
+      ]
+    },
+    {
+      "name": "90's Country",
+      "stream": "https://drive.uber.radio/uber/cmrbradpaisley/icecast.audio",
+      "url": "https://you.radio/station/country-90s-country",
+      "logo": "images/90-s-country.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "90s",
+        "Country"
+      ]
+    },
+    {
+      "name": "Brad Paisley",
+      "stream": "https://drive.uber.radio/uber/cmrbradpaisley/icecast.audio",
+      "url": "https://you.radio/station/country-brad-paisley",
+      "logo": "images/brad-paisley.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
+      "name": "Chris Stapleton",
+      "stream": "https://drive.uber.radio/uber/cmrchrisstapleton/icecast.audio",
+      "url": "https://you.radio/station/country-chris-stapleton",
+      "logo": "images/chris-stapleton.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
+      "name": "Keith Urban",
+      "stream": "https://drive.uber.radio/uber/cmrkeithurban/icecast.audio",
+      "url": "https://you.radio/station/country-keith-urban",
+      "logo": "images/keith-urban.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
+      "name": "Randy Travis",
+      "stream": "https://drive.uber.radio/uber/cmrrandytravis/icecast.audio",
+      "url": "https://you.radio/station/country-randy-travis",
+      "logo": "images/randy-travis.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
+      "name": "The Judds",
+      "stream": "https://drive.uber.radio/uber/cmrthejudds/icecast.audio",
+      "url": "https://you.radio/station/country-the-judds",
+      "logo": "images/the-judds.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
+      "name": "Tim McGraw",
+      "stream": "https://drive.uber.radio/uber/cmrtimmcgraw/icecast.audio",
+      "url": "https://you.radio/station/country-tim-mcgraw",
+      "logo": "images/tim-mcgraw.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
+      "name": "Today's Country",
+      "stream": "https://drive.uber.radio/uber/cmrtodayscountry/icecast.audio",
+      "url": "https://you.radio/station/country-todays-country",
+      "logo": "images/today-s-country.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
+      "name": "Today's Country Boys",
+      "stream": "https://drive.uber.radio/uber/cmrtodayscountryboys/icecast.audio",
+      "url": "https://you.radio/station/country-todays-country-boys",
+      "logo": "images/today-s-country-boys.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
+      "name": "Today's Country Girls",
+      "stream": "https://drive.uber.radio/uber/cmrtodayscountrygirls/icecast.audio",
+      "url": "https://you.radio/station/country-todays-country-girls",
+      "logo": "images/today-s-country-girls.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
+      "name": "Zac Brown Band",
+      "stream": "https://drive.uber.radio/uber/cmrzacbrownband/icecast.audio",
+      "url": "https://you.radio/station/country-zac-brown-band",
+      "logo": "images/zac-brown-band.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Country",
+        "Country Rock"
+      ]
+    },
+    {
+      "name": "Country",
+      "stream": "https://drive.uber.radio/uber/starboxcountry/icecast.audio",
+      "url": "https://you.radio/station/greatesthits-country",
+      "logo": "images/country.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
+      "name": "Disco",
+      "stream": "https://drive.uber.radio/uber/ghr/icecast.audio",
+      "url": "https://you.radio/station/greatesthits-disco",
+      "logo": "images/disco.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Disco",
+        "Dance"
+      ]
+    },
+    {
+      "name": "Soft Rock",
+      "stream": "https://drive.uber.radio/uber/starboxsoftrock/icecast.audio",
+      "url": "https://you.radio/station/greatesthits-soft-rock",
+      "logo": "images/soft-rock.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Soft Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "The 70's 80's & 90's",
+      "stream": "https://drive.uber.radio/uber/ghr/icecast.audio",
+      "url": "https://you.radio/station/greatesthits-the-70s-80s-90s",
+      "logo": "images/the-70-s-80-s-and-90-s.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "70s",
+        "80s",
+        "90s",
+        "Pop",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Alt Rock",
+      "stream": "https://drive.uber.radio/uber/rtwalt/icecast.audio",
+      "url": "https://you.radio/station/rock-alt-rock",
+      "logo": "images/alt-rock.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Classic Rock",
+      "stream": "https://drive.uber.radio/uber/rtwclassics/icecast.audio",
+      "url": "https://you.radio/station/rock-classic-rock",
+      "logo": "images/classic-rock-youradio.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Classic Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Country Rock",
+      "stream": "https://drive.uber.radio/uber/rtwcountry/icecast.audio",
+      "url": "https://you.radio/station/rock-country-rock",
+      "logo": "images/country-rock.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Country",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Rock",
+      "stream": "https://drive.uber.radio/uber/starboxrock/icecast.audio",
+      "url": "https://you.radio/station/bestof-rock",
+      "logo": "images/rock.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "name": "Rock N Roll",
+      "stream": "https://streaming.exclusive.radio/er/rocknrollparty/icecast.audio",
+      "url": "https://you.radio/station/bestof-rock-n-roll",
+      "logo": "images/rock-n-roll.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "name": "Todays Hits",
+      "stream": "https://streaming.exclusive.radio/er/chart/icecast.audio",
+      "url": "https://you.radio/station/bestof-todays-hits",
+      "logo": "images/todays-hits.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Pop"
+      ]
+    },
+    {
+      "name": "Rolling Stones",
+      "stream": "https://streaming.exclusive.radio/er/rollingstones/icecast.audio",
+      "url": "https://you.radio/station/exclusiveradio-rolling-stones",
+      "logo": "images/rolling-stones-youradio.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Classic Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Rolling Stones Hits",
+      "stream": "https://streaming.exclusive.radio/er/rollingstoneshits/icecast.audio",
+      "url": "https://you.radio/station/exclusivehits-rolling-stones-hits",
+      "logo": "images/rolling-stones-hits.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Pop",
+        "Classic Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Hood Hierarchy",
+      "stream": "https://das-edge16-live365-dal02.cdnstream.com/a09847",
+      "url": "",
+      "logo": "images/hood-hierarchy.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Hip-Hop/Rap"
+      ]
+    },
+    {
+      "name": "BlackBox Classic US",
+      "stream": "https://blackbox-classic-us.ice.infomaniak.ch/blackbox-classic-us.mp3",
+      "url": "https://www.blackboxfm.fr/",
+      "logo": "images/blackbox-classic-us.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Hip-Hop/Rap",
+        "Old School"
+      ]
+    },
+    {
+      "name": "BlackBox US",
+      "stream": "https://blackbox-classic-us.ice.infomaniak.ch/blackbox-us.mp3",
+      "url": "https://www.blackboxfm.fr/",
+      "logo": "images/blackbox-us.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Hip-Hop/Rap"
+      ]
+    },
+    {
+      "name": "Generations Rap US",
+      "stream": "https://generationfm-underground.ice.infomaniak.ch/generationfm-underground-high.mp3",
+      "url": "https://generations.fr/radio/webradio/",
+      "logo": "images/generations-rap-us.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Hip-Hop/Rap"
+      ]
+    },
+    {
+      "name": "Generations Rap US Classic",
+      "stream": "https://gene-wr08.ice.infomaniak.ch/gene-wr08.mp3",
+      "url": "https://generations.fr/radio/webradio/",
+      "logo": "images/generations-rap-us-classic.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Hip-Hop/Rap",
+        "Old School"
+      ]
+    },
+    {
+      "name": "Generations Brand New",
+      "stream": "https://gene-wr10.ice.infomaniak.ch/gene-wr10.mp3",
+      "url": "https://generations.fr/radio/webradio/",
+      "logo": "images/generations-brand-new.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Hip-Hop/Rap"
+      ]
+    },
+    {
+      "name": "Generations No Pain No Gain",
+      "stream": "https://generations-sport.ice.infomaniak.ch/generations-sport.mp3",
+      "url": "https://generations.fr/radio/webradio/",
+      "logo": "images/generations-no-pain-no-gain.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Hip-Hop/Rap"
+      ]
+    },
+    {
+      "name": "Generations NewJack",
+      "stream": "http://generations-njs.ice.infomaniak.ch/generations-njs.aac",
+      "url": "https://generations.fr/radio/webradio/",
+      "logo": "images/generations-newjack.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Hip-Hop/Rap"
+      ]
+    },
+    {
+      "name": "Delta Grunge",
+      "stream": "https://streams.deltaradio.de/delta-grunge/mp3-192/streams.deltaradio.de/",
+      "url": "http://",
+      "logo": "images/delta-grunge.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Grunge",
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "BOB Grunge",
+      "stream": "https://streams.radiobob.de/bob-grunge/mp3-192/streams.radiobob.de/",
+      "url": "http://",
+      "logo": "images/bob-grunge.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Grunge",
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Big R Grunge FM",
+      "stream": "http://das-edge11-live365-dal03.cdnstream.com/a92117",
+      "url": "http://",
+      "logo": "images/big-r-grunge-fm.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Grunge",
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "9090s Grunge",
+      "stream": "https://streams.90s90s.de/grunge/mp3-192/",
+      "url": "http://",
+      "logo": "images/9090s-grunge.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "90s",
+        "Grunge",
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "LiSTNR Grunge",
+      "stream": "https://sa47.scastream.com.au/live/grunge.stream/playlist.m3u8",
+      "url": "https://play.listnr.com/station/grunge",
+      "logo": "images/listnr-grunge.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Grunge",
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Labgate Radio Alt Rock Grunge",
+      "stream": "https://s2.ssl-stream.com/radio/8190/radio.mp3",
+      "url": "https://labgateradio.com/accueil/alt-rock-grunge/",
+      "logo": "images/labgate-radio-alt-rock-grunge.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Grunge",
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Radio Sydney - Grunge",
+      "stream": "http://abm21.com.au:8000/CONTAINER92",
+      "url": "https://radiosydney.com.au/computer/",
+      "logo": "images/radio-sydney-grunge.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Grunge",
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Rock Antenne Grunge",
+      "stream": "https://stream.rockantenne.de/grunge/stream/mp3",
+      "url": "http://www.rockantenne.de/",
+      "logo": "images/rock-antenne-grunge.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Grunge",
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "RMF Grunge",
+      "stream": "https://rs6-krk2.rmfstream.pl/GRUNGE",
+      "url": "https://www.rmfon.pl/stacja/rmf-grunge",
+      "logo": "images/rmf-grunge.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Grunge",
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "LITT Live Grunge - 90's Rock",
+      "stream": "https://das-sa39.cdnstream1.com/5570_128",
+      "url": "https://littlive.com/grunge",
+      "logo": "images/litt-live-grunge-90-s-rock.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "90s",
+        "Grunge",
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Maximum Grunge ",
+      "stream": "https://hls-01-maximum.hostingradio.ru/grunge/playlist.m3u8",
+      "url": "https://maximum.ru/online",
+      "logo": "images/maximum-grunge-grunge.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Grunge",
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "SuperGrunge Radio",
+      "stream": "https://stream-176.zeno.fm/vtvmvsb746ztv",
+      "url": "https://novosuivos.wixsite.com/supergrungeradio",
+      "logo": "images/supergrunge-radio.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Grunge",
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Grunge/The 90s",
+      "stream": "https://stream.laut.fm/grungethe90s",
+      "url": "https://laut.fm/grungethe90s",
+      "logo": "images/grunge-the-90s.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "90s",
+        "Grunge",
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Pop in the 80's",
+      "stream": "https://das-edge11-live365-dal03.cdnstream.com/a20101",
+      "url": "https://live365.com/station/Pop-In-The-80s-a20101",
+      "logo": "images/pop-in-the-80-s.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "80s",
+        "Pop"
+      ]
+    },
+    {
+      "name": "The Big 80s Station",
+      "stream": "https://ssl.nexuscast.com:9044/stream",
+      "url": "https://thebig80sstation.com/",
+      "logo": "images/the-big-80s-station.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "80s"
+      ]
+    },
+    {
+      "name": "HITS 80s",
+      "stream": "http://c2.auracast.net:8048/stream",
+      "url": "https://www.hits80s.com/",
+      "logo": "images/hits-80s.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "80s",
+        "Pop"
+      ]
+    },
+    {
+      "name": "Rock Hard Unplugged ",
+      "stream": "https://cast6.asurahosting.com/proxy/rhrunplug/stream",
+      "url": "http://www.myradiozone.com",
+      "logo": "images/rock-hard-unplugged.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Acoustic",
+        "Rock"
+      ]
+    },
+    {
+      "name": "AntyRadio Unplugged",
+      "stream": "https://an06.cdn.eurozet.pl/ANTUNP.mp3",
+      "url": "https://player.antyradio.pl/Kanaly-muzyczne/Antyradio-Unplugged",
+      "logo": "images/antyradio-unplugged.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Acoustic"
+      ]
+    },
+    {
+      "name": "Big Hair Radio",
+      "stream": "https://cast6.asurahosting.com/proxy/bighairradio/stream",
+      "url": "http://www.myradiozone.com",
+      "logo": "images/big-hair-radio.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Hair Metal",
+        "Hard Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "The Dump Radio ",
+      "stream": "https://radio.turbo.net.au/stream",
+      "url": "https://www.thedumpradio.com/",
+      "logo": "images/the-dump-radio.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "90s",
+        "2000s",
+        "Alternative",
+        "Grunge",
+        "Indie",
+        "Rock"
+      ]
+    },
+    {
+      "name": "CAYA Radio",
+      "stream": "https://tuneintoradio1.com/listen/caya_radio/radio.mp3",
+      "url": "https://tuneintoradio1.com/public/caya_radio",
+      "logo": "images/caya-radio.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "90s",
+        "Alternative",
+        "Grunge",
+        "Indie",
+        "Punk",
+        "Rock"
+      ]
+    },
+    {
+      "name": "WYML 99.9",
+      "stream": "http://seahorse.juststreamwith.us:8000/stream",
+      "url": "http://www.wyml.us/",
+      "logo": "images/wyml-99-9.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "80s",
+        "Classic Hits",
+        "Classic Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Edge Wave Radio",
+      "stream": "https://edgewave.stream.laut.fm/edgewave",
+      "url": "https://onlineradiobox.com/at/edgewave/",
+      "logo": "images/edge-wave-radio.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Alternative",
+        "Indie",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Bollocks Rock & Metal Radio",
+      "stream": "https://s44.myradiostream.com:6588/listen.mp3",
+      "url": "https://www.bollocksradio.com/",
+      "logo": "images/bollocks-rock-and-metal-radio.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Metal",
+        "Hard Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Planet Flannel Radio",
+      "stream": "https://cast6.asurahosting.com/proxy/planetflannel/stream",
+      "url": "http://www.myradiozone.com",
+      "logo": "images/planet-flannel-radio.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Grunge",
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "BFBS Edge",
+      "stream": "https://listen-ssvcbfbs.sharp-stream.com/ssvcbfbs22.aac",
+      "url": "https://radio.bfbs.com/stations/bfbs-edge",
+      "logo": "images/bfbs-edge.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Alternative",
+        "Indie",
+        "Rock"
+      ]
+    },
+    {
+      "name": "99X",
+      "stream": "https://26153.live.streamtheworld.com/WNNXFMAAC.aac",
+      "url": "https://www.99xatl.com/",
+      "logo": "images/99x.png",
+      "favorite": false,
+      "type": "On Air",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "91X",
+      "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/XTRAFMAAC.aac",
+      "url": "https://www.91x.com/",
+      "logo": "images/91x.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Big Dog 106",
+      "stream": "https://stream.revma.ihrhls.com/zc2193/hls.m3u8",
+      "url": "",
+      "logo": "images/big-dog-106.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Classic Rock",
+        "Hard Rock",
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "radio 2810 alternative",
+      "stream": "https://das-edge63-live365-dal03.cdnstream.com/a55555",
+      "url": "https://das-edge63-live365-dal03.cdnstream.com/a55555",
+      "logo": "images/radio-2810-alternative.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "New Rock 102 One",
+      "stream": "https://das-edge11-live365-dal03.cdnstream.com/a96257",
+      "url": "",
+      "logo": "images/new-rock-102-one.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "name": "The Dude Radio Cincinnati",
+      "stream": "https://das-edge14-live365-dal02.cdnstream.com/a94899",
+      "url": "",
+      "logo": "images/the-dude-radio-cincinnati.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Classic Rock",
+        "Alternative",
+        "Hip-Hop/Rap",
+        "Rock"
+      ]
+    },
+    {
+      "name": "96.7 The X",
+      "stream": "https://das-edge14-live365-dal02.cdnstream.com/a01758",
+      "url": "",
+      "logo": "images/96-7-the-x.png",
+      "favorite": false,
+      "type": "On Air",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Turnpike 94",
+      "stream": "http://das-edge62-live365-dal03.cdnstream.com/a58742",
+      "url": "",
+      "logo": "images/turnpike-94.png",
+      "favorite": false,
+      "type": "On Air",
+      "genres": [
+        "Country",
+        "Country Rock"
+      ]
+    },
+    {
+      "name": "The Mullet Country",
+      "stream": "http://das-edge11-live365-dal03.cdnstream.com/a37524",
+      "url": "",
+      "logo": "images/the-mullet-country.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
+      "name": "The Country Crossroads",
+      "stream": "https://das-edge12-live365-dal02.cdnstream.com/a00031",
+      "url": "",
+      "logo": "images/the-country-crossroads.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
+      "name": "A1 Real American Country",
+      "stream": "https://das-edge17-live365-dal02.cdnstream.com/a24055",
+      "url": "",
+      "logo": "images/a1-real-american-country.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
+      "name": "94.7 The Block",
+      "stream": "https://prod-3-80-202-25.amperwave.net/audacy-wxbkfmaac-hlsc.m3u8",
+      "url": "",
+      "logo": "images/94-7-the-block.png",
+      "favorite": false,
+      "type": "On Air",
+      "genres": [
+        "Hip-Hop/Rap"
+      ]
+    },
+    {
+      "name": "Hot 96.9",
+      "stream": "https://18193.live.streamtheworld.com/WBQTFMAACIHR.aac",
+      "url": "",
+      "logo": "images/hot-96-9.png",
+      "favorite": false,
+      "type": "On Air",
+      "genres": [
+        "Hip-Hop/Rap"
+      ]
+    },
+    {
+      "name": "105.1 The Bounce",
+      "stream": "https://22123.live.streamtheworld.com/WMGCFMAACIHR.aac",
+      "url": "",
+      "logo": "images/105-1-the-bounce.png",
+      "favorite": false,
+      "type": "On Air",
+      "genres": [
+        "Hip-Hop/Rap"
+      ]
+    },
+    {
+      "name": "95.1 WAPE",
+      "stream": "http://ad-oom-cmg.streamguys1.com/jac951/jac951-sgplayer-aac",
+      "url": "",
+      "logo": "images/95-1-wape.png",
+      "favorite": false,
+      "type": "On Air",
+      "genres": [
+        "Pop"
+      ]
+    },
+    {
+      "name": "102.7 KIIS-FM",
+      "stream": "https://stream.revma.ihrhls.com/zc185",
+      "url": "http://",
+      "logo": "images/102-7-kiis-fm.png",
+      "favorite": false,
+      "type": "On Air",
+      "genres": [
+        "Pop"
+      ]
+    },
+    {
+      "name": "Z100 New York",
+      "stream": "https://stream.revma.ihrhls.com/zc1469",
+      "url": "http://",
+      "logo": "images/z100-new-york.png",
+      "favorite": false,
+      "type": "On Air",
+      "genres": [
+        "Pop"
+      ]
+    },
+    {
+      "name": "103.5 The Vault",
+      "stream": "https://ice66.securenetsystems.net/WJKI",
+      "url": "https://thevaultrocks.com/",
+      "logo": "images/103-5-the-vault.png",
+      "favorite": false,
+      "type": "On Air",
+      "genres": [
+        "Classic Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Power 99.1 FM",
+      "stream": "https://ice5.securenetsystems.net/KUJFM",
+      "url": "https://power991fm.com/",
+      "logo": "images/power-99-1-fm.png",
+      "favorite": false,
+      "type": "On Air",
+      "genres": [
+        "Pop"
+      ]
+    },
+    {
+      "name": "K Country",
+      "stream": "https://ais-sa1.streamon.fm/7051_24k.aac/playlist.m3u8",
+      "url": "https://www.mykcountry.com/",
+      "logo": "images/k-country.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
+      "name": "93.5 KDAY",
+      "stream": "https://14093.live.streamtheworld.com/KDAYFMAAC.aac",
+      "url": "https://www.935kday.com/",
+      "logo": "images/93-5-kday.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Hip-Hop/Rap"
+      ]
+    },
+    {
+      "name": "Hot 95.1",
+      "stream": "https://stream.revma.ihrhls.com/zc1393",
+      "url": "https://ice.radio.fm/countries/united-states",
+      "logo": "images/hot-95-1.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Pop"
+      ]
+    },
+    {
+      "name": "Old School 104.7",
+      "stream": "https://ice26.securenetsystems.net/KOCP",
+      "url": "https://oldschool1047.com/",
+      "logo": "images/old-school-104-7.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Hip-Hop/Rap"
+      ]
+    },
+    {
+      "name": "ALT 103.7",
+      "stream": "https://prod-98-93-169-65.amperwave.net/audacy-kvilfmaac-hlsc.m3u8",
+      "url": "https://www.audacy.com/alt1037dfw",
+      "logo": "images/alt-103-7.png",
+      "favorite": false,
+      "type": "On Air",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "96 Rock",
+      "stream": "https://stream.revma.ihrhls.com/zc8917/hls.m3u8",
+      "url": "https://96rock.iheart.com/",
+      "logo": "images/96-rock.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "name": "Rock 103",
+      "stream": "https://n18b-e2.revma.ihrhls.com/zc785/24_80mrt9azlucx02/playlist.m3u8",
+      "url": "https://rock103columbus.iheart.com/",
+      "logo": "images/rock-103.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "name": "The Whale 99.1",
+      "stream": "https://prod-13-222-197-5.amperwave.net/townsquare-waalfmaac-hlsc3.m3u8/",
+      "url": "https://991thewhale.com/",
+      "logo": "images/the-whale-99-1.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Classic Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "WVFS Tallahassee",
+      "stream": "http://voice.wvfs.fsu.edu:8000/stream",
+      "url": "https://wvfs.fsu.edu/",
+      "logo": "images/wvfs-tallahassee.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Alternative",
+        "Indie",
+        "College/Freeform"
+      ]
+    },
+    {
+      "name": "Radio Rock Hits",
+      "stream": "https://live.radiorockhits.com/listen/radiorockhits/radio.mp3",
+      "url": "https://radiorockhits.com",
+      "logo": "images/radio-rock-hits.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "name": "EDGE FM",
+      "stream": "https://streaming.live365.com/a54182",
+      "url": "https://www.edgefm.net/",
+      "logo": "images/edge-fm.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Alternative",
+        "Indie",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Z-104.5 THE EDGE",
+      "stream": "https://ice8.securenetsystems.net/KMYZ",
+      "url": "https://edgetulsa.com/",
+      "logo": "images/z-104-5-the-edge.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "BDPST ROCK",
+      "stream": "https://s2.audiostream.hu/bdpstrock_320k",
+      "url": "https://roxyradio.hu/",
+      "logo": "images/bdpst-rock.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "name": "Country 97",
+      "stream": "https://vistaradio.streamb.live/SB00040",
+      "url": "https://www.myprincegeorgenow.com/on-air/",
+      "logo": "images/country-97.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
+      "name": "100.1 Bay FM",
+      "stream": "https://stream.statsradio.com:8148/stream",
+      "url": "https://www.bayfm.ca/",
+      "logo": "images/100-1-bay-fm.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Classic Hits",
+        "Pop",
+        "Rock"
+      ]
+    },
+    {
+      "name": "94.3 The GOAT",
+      "stream": "https://vistaradio.streamb.live/SB00066",
+      "url": "https://www.myprincegeorgenow.com/on-air/",
+      "logo": "images/94-3-the-goat.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Classic Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "PureRock.US",
+      "stream": "https://purerock.radioca.st/stream",
+      "url": "https://www.purerock.us/",
+      "logo": "images/purerock-us.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "name": "Metal Rock Radio",
+      "stream": "https://cast3.torontocast.com:1310/",
+      "url": "http://www.metalrockradio.com/",
+      "logo": "images/metal-rock-radio.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Metal",
+        "Hard Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "MetalRock.FM",
+      "stream": "https://cast3.torontocast.com:1320/",
+      "url": "http://www.metalrockradio.com/",
+      "logo": "images/metalrock-fm.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Metal",
+        "Hard Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Rock 95.7",
+      "stream": "https://play.radioking.io/rock957",
+      "url": "https://www.rock957.com/",
+      "logo": "images/rock-95-7.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "name": "107dot5",
+      "stream": "https://tuneintoradio1.com:8030/radio.mp3",
+      "url": "https://cayaradio.wixsite.com/107dot5",
+      "logo": "images/107dot5.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "94.7/102.9 The Beast",
+      "stream": "https://18863.live.streamtheworld.com/WOZZFMAAC_SC",
+      "url": "https://947thebeast.com/",
+      "logo": "images/94-7-102-9-the-beast.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Hard Rock",
+        "Alternative",
+        "Metal",
+        "Rock"
+      ]
+    },
+    {
+      "name": "The Resistance 106.7",
+      "stream": "https://18303.live.streamtheworld.com/WRISFMAAC_SC",
+      "url": "https://www.altmad.com/",
+      "logo": "images/the-resistance-106-7.png",
+      "favorite": false,
+      "type": "On Air",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "104.3 The Fuse",
+      "stream": "https://woodward-radio.streamb.live/SB00131",
+      "url": "https://www.1043thefuse.com/",
+      "logo": "images/104-3-the-fuse.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Alternative",
+        "Indie",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Country Rock",
+      "stream": "https://radio.jump.bg/proxy/feed104?mp=/MSRR",
+      "url": "https://metrocast.top/rock-hd/",
+      "logo": "images/country-rock-station.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Country",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Altrok Radio",
+      "stream": "https://ice.wbjb.net/ALT-MP3-High",
+      "url": "http://www.altrok.com/",
+      "logo": "images/altrok-radio.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Alternative",
+        "Indie",
+        "Rock",
+        "New Wave"
+      ]
+    },
+    {
+      "name": "AROCK Radio",
+      "stream": "https://das-edge11-live365-dal03.cdnstream.com/a71753",
+      "url": "https://arockradio.com/",
+      "logo": "images/arock-radio.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "name": "Megarock Radio",
+      "stream": "https://stream6.megarockradio.net/",
+      "url": "https://megarockradio.net/",
+      "logo": "images/megarock-radio.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "name": "Hard&Metal: Sonora Classic Rock",
+      "stream": "https://s18.myradiostream.com/6664/listen.mp3",
+      "url": "https://www.sonoraclassicrock.com/",
+      "logo": "images/hard-and-metal-sonora-classic-rock.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Classic Rock",
+        "Rock",
+        "Metal",
+        "Hard Rock"
+      ]
+    },
+    {
+      "name": "Soft Rock: Sonora Classic Rock",
+      "stream": "https://s25.myradiostream.com/5764/listen.mp3",
+      "url": "https://www.sonoraclassicrock.com/",
+      "logo": "images/soft-rock-sonora-classic-rock.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Classic Rock",
+        "Rock",
+        "Soft Rock"
+      ]
+    },
+    {
+      "name": "X107.5 Real Alternative",
+      "stream": "https://stream.aiir.com/w5gqqmqf9crtv?_=675740",
+      "url": "https://x1075iowa.com/",
+      "logo": "images/x107-5-real-alternative.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "KINK",
+      "stream": "https://29023.live.streamtheworld.com:443/KINK_SC",
+      "url": "https://kink.nl/",
+      "logo": "images/kink.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Alternative",
+        "Indie",
+        "Rock",
+        "New Wave"
+      ]
+    },
+    {
+      "name": "106.3 LaFayette's Rock & Alternative",
+      "stream": "https://ice7.securenetsystems.net/KYMK",
+      "url": "https://1063radiolafayette.com/",
+      "logo": "images/106-3-lafayette-s-rock-and-alternative.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "KROQ",
+      "stream": "https://prod-18-234-58-253.amperwave.net/audacy-kroqfmaac-hlsc.m3u8",
+      "url": "https://www.audacy.com/stations/kroq",
+      "logo": "images/kroq.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "The SoCal Sound",
+      "stream": "https://www.streamvortex.com:8444/s/12200/",
+      "url": "https://www.thesocalsound.org/",
+      "logo": "images/the-socal-sound.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Alternative",
+        "Indie",
+        "Americana",
+        "Rock"
+      ]
+    },
+    {
+      "name": "93XRT",
+      "stream": "https://prod-35-168-23-10.amperwave.net/audacy-wxrtfmaac-hlsc.m3u8",
+      "url": "https://www.audacy.com/stations/wxrt/",
+      "logo": "images/93xrt.png",
+      "favorite": false,
+      "type": "On Air",
+      "genres": [
+        "Alternative",
+        "Indie",
+        "Rock",
+        "Classic Rock"
+      ]
+    },
+    {
+      "name": "Lightning 100",
+      "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRLTFMAAC.aac",
+      "url": "https://lightning100.com/",
+      "logo": "images/lightning-100.png",
+      "favorite": false,
+      "type": "On Air",
+      "genres": [
+        "Alternative",
+        "Indie",
+        "Americana",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Birmingham Mountain Radio",
+      "stream": "https://ice6.securenetsystems.net:80/WBMR",
+      "url": "https://bhammountainradio.com/",
+      "logo": "images/birmingham-mountain-radio.png",
+      "favorite": false,
+      "type": "On Air",
+      "genres": [
+        "Alternative",
+        "Indie",
+        "Americana",
+        "Rock"
+      ]
+    },
+    {
+      "name": "KXT 91.7",
+      "stream": "https://kera.streamguys1.com/kxtlive64aacplus",
+      "url": "https://kxt.org/",
+      "logo": "images/kxt-91-7.png",
+      "favorite": false,
+      "type": "On Air",
+      "genres": [
+        "Alternative",
+        "Indie",
+        "Americana",
+        "Rock"
+      ]
+    },
+    {
+      "name": "90’s Alternative Hitz",
+      "stream": "https://pureplay.cdnstream1.com/6040_128.mp3",
+      "url": "https://100hitz.com/wp-content/uploads/2023/03/1.-90s_Alternative_Hitz-LargeGlow-Offset-370x370.png",
+      "logo": "images/90s-alternative-hitz.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Digital Hits Radio",
+      "stream": "https://cast6.asurahosting.com/proxy/digitalhits/stream",
+      "url": "http://www.myradiozone.com",
+      "logo": "images/digital-hits-radio.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Pop"
+      ]
+    },
+    {
+      "name": "DARE FM",
+      "stream": "https://das-edge27-sa23-lax02.cdnstream.com/1552_128",
+      "url": "https://wdarefm.com/",
+      "logo": "images/dare-fm.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "80s",
+        "90s",
+        "Alternative",
+        "Indie",
+        "New Wave",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Classic Alternative",
+      "stream": "https://classicalternative.stream.laut.fm/classicalternative",
+      "url": "https://laut.fm/classicalternative",
+      "logo": "images/classic-alternative.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "8erfeld",
+      "stream": "https://8erfeld.stream.laut.fm/8erfeld",
+      "url": "https://laut.fm/8erfeld",
+      "logo": "images/8erfeld.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "80s",
+        "Pop",
+        "Rock",
+        "New Wave"
+      ]
+    },
+    {
+      "name": "Radio Underground",
+      "stream": "https://radiounderground.stream.laut.fm/radiounderground",
+      "url": "https://laut.fm/radiounderground",
+      "logo": "images/radio-underground.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Alternative",
+        "Indie",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Edge Wave",
+      "stream": "https://edgewave.stream.laut.fm/edgewave",
+      "url": "https://laut.fm/edgewave",
+      "logo": "images/edge-wave.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Alternative",
+        "Indie",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Make Grunge Great Again",
+      "stream": "https://makegrungegreatagain.stream.laut.fm/makegrungegreatagain",
+      "url": "https://laut.fm/makegrungegreatagain",
+      "logo": "images/make-grunge-great-again.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Grunge",
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "No Mundo do Rock",
+      "stream": "https://servidor34.brlogic.com:8014/live",
+      "url": "https://nomundodorock.com/",
+      "logo": "images/no-mundo-do-rock.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "name": "AlternativeFM",
+      "stream": "https://raka.stream49.radiohost.de/raka-alternativefm_mp3-128",
+      "url": "https://alternativefm.de/",
+      "logo": "images/alternativefm.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Radio X",
+      "stream": "https://15113.live.streamtheworld.com/SAM02AAC65.mp3",
+      "url": "https://radioxnz.com/",
+      "logo": "images/radio-x.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "98Rock",
+      "stream": "https://ice6.securenetsystems.net/WYBB",
+      "url": "https://my98rock.com/",
+      "logo": "images/98rock.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "name": "106 Rock",
+      "stream": "https://stream2.rcast.net/71430",
+      "url": "https://dir.rcast.net/radio/71430/106-rock",
+      "logo": "images/106-rock.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "name": "Outlaw Radio",
+      "stream": "https://r.bgp.rodeo/listen/outlaw/radio.mp3",
+      "url": "https://dir.rcast.net/radio/1029399/outlaw-radio",
+      "logo": "images/outlaw-radio.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Country",
+        "Country Rock"
+      ]
+    },
+    {
+      "name": "89FM A Radio Rock",
+      "stream": "https://27443.live.streamtheworld.com/RADIO_89FM_ADP.aac",
+      "url": "https://www.radiorock.com.br/",
+      "logo": "images/89fm-a-radio-rock.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "name": "Totally Radio 80s",
+      "stream": "http://playerservices.streamtheworld.com/api/livestream-redirect/T_RAD_80S_S01.mp3",
+      "url": "https://totallyradio.com.au/",
+      "logo": "images/totally-radio-80s.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "80s"
+      ]
+    },
+    {
+      "name": "Totally Radio Rock",
+      "stream": "http://playerservices.streamtheworld.com/api/livestream-redirect/T_RAD_ROCK_S01.mp3",
+      "url": "https://totallyradio.com.au/",
+      "logo": "images/totally-radio-rock.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "name": "Totally Radio Country",
+      "stream": "http://playerservices.streamtheworld.com/api/livestream-redirect/T_RAD_COUNTRY_S01.mp3",
+      "url": "https://totallyradio.com.au/",
+      "logo": "images/totally-radio-country.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
+      "name": "Totally Radio 90s",
+      "stream": "http://playerservices.streamtheworld.com/api/livestream-redirect/T_RAD_90S_S01.mp3",
+      "url": "https://totallyradio.com.au/",
+      "logo": "images/totally-radio-90s.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "90s"
+      ]
+    },
+    {
+      "name": "FluxFM HipHop Classics",
+      "stream": "https://fluxmusic.api.radiosphere.io/channels/15b5625a-fdbc-4d08-8b7c-9c9b331e1977/stream.aac",
+      "url": "https://www.fluxfm.de/",
+      "logo": "images/fluxfm-hiphop-classics.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Hip-Hop/Rap"
+      ]
+    },
+    {
+      "name": "FluxFM Alternative",
+      "stream": "https://fluxmusic.api.radiosphere.io/channels/4885aa15-eecb-49ed-9958-106ce4c95191/stream.aac",
+      "url": "https://www.fluxfm.de/",
+      "logo": "images/fluxfm-alternative.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "FluxFM 80s",
+      "stream": "https://fluxmusic.api.radiosphere.io/channels/3d8e34e8-3a23-451b-a5ff-60d59a3e768d/stream.aac",
+      "url": "https://www.fluxfm.de/",
+      "logo": "images/fluxfm-80s.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "80s"
+      ]
+    },
+    {
+      "name": "FluxFM 90s",
+      "stream": "https://fluxmusic.api.radiosphere.io/channels/7ee29cf1-7561-4ba6-9c9b-cc4faebbaf28/stream.aac",
+      "url": "https://www.fluxfm.de/",
+      "logo": "images/fluxfm-90s.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "90s"
+      ]
+    },
+    {
+      "name": "RPR1 Old School Hip-Hop",
+      "stream": "https://stream.rpr1.de/hiphop/aac-128/homepage/",
+      "url": "https://www.rpr1.de/",
+      "logo": "images/rpr1-old-school-hip-hop.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Hip-Hop/Rap",
+        "Old School"
+      ]
+    },
+    {
+      "name": "RPR1 Acoustic",
+      "stream": "https://stream.rpr1.de/acoustic/aac-128/homepage/",
+      "url": "https://www.rpr1.de/",
+      "logo": "images/rpr1-acoustic.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Acoustic"
+      ]
+    },
+    {
+      "name": "RPR1 80s Pop Rock",
+      "stream": "https://stream.rpr1.de/80errock/aac-128/homepage/",
+      "url": "https://www.rpr1.de/",
+      "logo": "images/rpr1-80s-pop-rock.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "80s",
+        "Pop",
+        "Rock"
+      ]
+    },
+    {
+      "name": "RPR1 Rock",
+      "stream": "https://stream.rpr1.de/rock/aac-128/homepage/",
+      "url": "https://www.rpr1.de/",
+      "logo": "images/rpr1-rock.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "name": "RPR1 Heavy Metal",
+      "stream": "https://stream.rpr1.de/metal/aac-128/homepage/",
+      "url": "https://www.rpr1.de/",
+      "logo": "images/rpr1-heavy-metal.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Metal",
+        "Hard Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "RPR1 Country",
+      "stream": "https://stream.rpr1.de/country/aac-128/homepage/",
+      "url": "https://www.rpr1.de/",
+      "logo": "images/rpr1-country.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
+      "name": "RPR1 80S",
+      "stream": "https://stream.rpr1.de/80er/aac-128/homepage/",
+      "url": "https://www.rpr1.de/",
+      "logo": "images/rpr1-80s.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "80s"
+      ]
+    },
+    {
+      "name": "RPR1 90s Rock",
+      "stream": "https://stream.rpr1.de/90errock/aac-128/homepage/",
+      "url": "https://www.rpr1.de/",
+      "logo": "images/rpr1-90s-rock.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "90s",
+        "Rock"
+      ]
+    },
+    {
+      "name": "100.7FM The Viper",
+      "stream": "https://ice24.securenetsystems.net/KFNSFM",
+      "url": "https://viperrocks.com/",
+      "logo": "images/100-7fm-the-viper.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Classic Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "THE GUMP 104.9FM",
+      "stream": "https://cast.streamkast.co/wgmpfm",
+      "url": "https://1049thegump.com/",
+      "logo": "images/the-gump-104-9fm.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Classic Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "96.5 The Alternative",
+      "stream": "https://ice9.securenetsystems.net/KQBLHD3",
+      "url": "https://altboise.com/",
+      "logo": "images/96-5-the-alternative.png",
+      "favorite": false,
+      "type": "On Air",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Acid Flashback",
+      "stream": "https://canada1.reliastream.com/proxy/afr?mp=/stream",
+      "url": "https://internetfm.com/music/acid-flashback/",
+      "logo": "images/acid-flashback.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "60s",
+        "70s",
+        "Psychedelic Rock",
+        "Classic Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "104.9 The Rebel",
+      "stream": "https://das-edge59-sa48-futuri-lax02.cdnstream.com/7047_48k.aac/playlist.m3u8",
+      "url": "https://www.1049therebel.com/",
+      "logo": "images/104-9-the-rebel.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Classic Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "93.7 WVLZ",
+      "stream": "https://n0b.radiojar.com/p8107tpu6k8uv",
+      "url": "https://www.937wvlz.com/",
+      "logo": "images/93-7-wvlz.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Hard Rock",
+        "Alternative",
+        "Metal",
+        "Rock"
+      ]
+    },
+    {
+      "name": "The Ranch Radio",
+      "stream": "https://loveradio.stream:8010/stream",
+      "url": "https://theranchradio.org/",
+      "logo": "images/the-ranch-radio.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
+      "name": "Rock Rage Radio",
+      "stream": "https://usa12.fastcast4u.com/proxy/rockrage?mp=/1",
+      "url": "https://www.rockrageradio.com/",
+      "logo": "images/rock-rage-radio.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "name": "LITT Grunge",
+      "stream": "https://das-sa39.cdnstream1.com/5570_128",
+      "url": "https://littlive.com/stations",
+      "logo": "images/litt-grunge.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Grunge",
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "LITT Rock",
+      "stream": "https://das-sa39.cdnstream1.com/5591_128",
+      "url": "https://littlive.com/stations",
+      "logo": "images/litt-rock.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "name": "LITT Alt",
+      "stream": "https://das-sa39.cdnstream1.com/5561_128",
+      "url": "https://littlive.com/",
+      "logo": "images/litt-alt.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "LITT 1580 - Classic Hip-Hop",
+      "stream": "https://das-sa39.cdnstream1.com/5556_128",
+      "url": "https://littlive.com/",
+      "logo": "images/litt-1580-classic-hip-hop.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Hip-Hop/Rap"
+      ]
+    },
+    {
+      "name": "The Strip Hair Bands",
+      "stream": "https://das-sa39.cdnstream1.com/5602_128",
+      "url": "",
+      "logo": "images/the-strip-hair-bands.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Hair Metal",
+        "Hard Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "XROCK 95.9 FM",
+      "stream": "https://ice5.securenetsystems.net/KXLR",
+      "url": "https://xrock959.com/",
+      "logo": "images/xrock-95-9-fm.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "name": "502 Rock Radio",
+      "stream": "http://s2.stationplaylist.com:7018/stream.mp3",
+      "url": "https://502rockradio.com/",
+      "logo": "images/502-rock-radio.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "name": "Asterisk Radio",
+      "stream": "https://usa6.fastcast4u.com/proxy/bigfeat2?mp=/1&1788668576242",
+      "url": "https://www.asteriskradio.com/",
+      "logo": "images/asterisk-radio.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "80s",
+        "New Wave",
+        "Pop",
+        "Rock"
+      ]
+    },
+    {
+      "name": "93-Z KAMZ 80s El Paso",
+      "stream": "https://usa6.fastcast4u.com/proxy/bzruyqwq?mp=/1&1788670318105",
+      "url": "https://www.asteriskradio.com/",
+      "logo": "images/93-z-kamz-80s-el-paso.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "80s"
+      ]
+    },
+    {
+      "name": "Channel 106 90s Rock ",
+      "stream": "https://stream-177.surfernetwork.com/p3dcxaf6138uv",
+      "url": "",
+      "logo": "images/channel-106-90s-rock.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "90s",
+        "Rock"
+      ]
+    },
+    {
+      "name": "KIX FM",
+      "stream": "https://stream.kixfm.co.nz:8178/stream",
+      "url": "https://kixfm.co.nz/",
+      "logo": "images/kix-fm.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
+      "name": "UturnRadio",
+      "stream": "https://listen.uturnradio.com/classic_rock",
+      "url": "https://www.uturnradio.com/",
+      "logo": "images/uturnradio.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Alternative",
+        "Rock",
+        "Metal"
+      ]
+    },
+    {
+      "name": "Mark Skin Radio",
+      "stream": "https://usa3.fastcast4u.com/proxy/markskinradio/stream",
+      "url": "https://markskinradio.com/",
+      "logo": "images/mark-skin-radio.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Alternative",
+        "Indie",
+        "Blues",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Radio Hilgen",
+      "stream": "https://central.stream.laut.fm/central",
+      "url": "https://www.radiohilgenwk.de/",
+      "logo": "images/radio-hilgen.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Pop",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Crossroads La Grange – Classic Hits",
+      "stream": "https://s2.stationplaylist.com:7076/listen.mp3",
+      "url": "https://crossroadslagrange.mcgillmediaproductions.com/",
+      "logo": "images/crossroads-la-grange-classic-hits.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Pop",
+        "Classic Hits"
+      ]
+    },
+    {
+      "name": "Radio Octopus",
+      "stream": "https://nr5.newradio.it/proxy/fterenzi?mp=/stream",
+      "url": "https://www.radiooctopus.it/",
+      "logo": "images/radio-octopus.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Alternative",
+        "Indie",
+        "Rock"
+      ]
+    },
+    {
+      "name": "HD-R.NET Rock",
+      "stream": "https://hdradiorock-rfritschka.radioca.st/;",
+      "url": "https://hd-radio.net/",
+      "logo": "images/hd-r-net-rock.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "name": "HD-R.NET The 80s",
+      "stream": "https://hdradiohot100-rfritschka.radioca.st/;",
+      "url": "https://hd-radio.net/",
+      "logo": "images/hd-r-net-the-80s.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "80s"
+      ]
+    },
+    {
+      "name": "HD-R.NET Classic Rock",
+      "stream": "https://hdradioclassicrock-rfritschka.radioca.st/;",
+      "url": "https://hd-radio.net/",
+      "logo": "images/hd-r-net-classic-rock.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Classic Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "HD-R.NET Country",
+      "stream": "https://hdradiocountry-rfritschka.radioca.st/;",
+      "url": "https://hd-radio.net/",
+      "logo": "images/hd-r-net-country.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Country"
+      ]
+    },
+    {
+      "name": "HD-R.NET Party Mix",
+      "stream": "https://hdradiopartymix-rfritschka.radioca.st/;",
+      "url": "https://hd-radio.net/",
+      "logo": "images/hd-r-net-party-mix.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Dance"
+      ]
+    },
+    {
+      "name": "Z103.3 Real Rock",
+      "stream": "https://17793.live.streamtheworld.com/KZCRFMAAC_SC",
+      "url": "https://fergusnow.com/z103-home/",
+      "logo": "images/z103-3-real-rock.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "name": "AltRock IsDead.com",
+      "stream": "https://streaming.live365.com/a22520",
+      "url": "https://altrockisdead.com/",
+      "logo": "images/altrock-isdead-com.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Village Radio",
+      "stream": "https://streaming.live365.com/a73319",
+      "url": "https://www.villageradio.net/",
+      "logo": "images/village-radio.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Classic Hits",
+        "Pop",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Dirty South Radio",
+      "stream": "https://ec7.yesstreaming.net:1360/stream",
+      "url": "https://dirtysouthradioonline.com/",
+      "logo": "images/dirty-south-radio.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Hip-Hop/Rap"
+      ]
+    },
+    {
+      "name": "The Edge",
+      "stream": "https://streaming.live365.com/a99781",
+      "url": "https://live365.com/station/The-Edge-a99781",
+      "logo": "images/the-edge.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Alt 92.3 FM",
+      "stream": "https://live.amperwave.net/direct/audacy-winshd2aac-imc",
+      "url": "https://www.audacy.com/alt923",
+      "logo": "images/alt-92-3-fm.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "X-96",
+      "stream": "https://ais-sa1.streamon.fm/7346_48k.aac",
+      "url": "https://x96.com/",
+      "logo": "images/x-96.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "X96 Classic",
+      "stream": "https://ais-sa1.streamon.fm/7344_48k.aac",
+      "url": "https://x96.com/",
+      "logo": "images/x96-classic.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "80s",
+        "Alternative",
+        "New Wave",
+        "Rock"
+      ]
+    },
+    {
+      "name": "107.3 Alternative Cleveland",
+      "stream": "https://ais-sa1.streamon.fm/10586_96k.aac/playlist.m3u8",
+      "url": "https://1073cleveland.com/",
+      "logo": "images/107-3-alternative-cleveland.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Lazer 99.3",
+      "stream": "https://live.amperwave.net/manifest/saga-wlzxfmaac-hlsc2.m3u8",
+      "url": "https://lazer993.com/",
+      "logo": "images/lazer-99-3.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Hard Rock",
+        "Alternative",
+        "Metal",
+        "Rock"
+      ]
+    },
+    {
+      "name": "94/7 FM",
+      "stream": "https://live.amperwave.net/manifest/audacy-knrkfmaac-imc",
+      "url": "https://www.audacy.com/947",
+      "logo": "images/94-7-fm.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "99.3 The X",
+      "stream": "https://prod-44-195-61-138.amperwave.net/bristolbroad-wexxfmaac-hlsc2.m3u8",
+      "url": "https://www.993thex.com/",
+      "logo": "images/99-3-the-x.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "The X 100.7",
+      "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/KMGXFM_SC?dist=",
+      "url": "https://backyardbend.com/thex1007/",
+      "logo": "images/the-x-100-7.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Eagle 107",
+      "stream": "https://live.amperwave.net/direct//sunbury-weghfmmp3-imc2",
+      "url": "https://www.eagle107.com/",
+      "logo": "images/eagle-107.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Classic Rock",
+        "Rock"
+      ]
+    },
+    {
+      "name": "KOOL 98.3",
+      "stream": "https://prod-44-195-61-138.amperwave.net/saga-kuqlfmaac-hlsc1.m3u8/",
+      "url": "https://kool98.com/",
+      "logo": "images/kool-98-3.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Classic Hits",
+        "80s",
+        "Pop",
+        "Rock"
+      ]
+    },
+    {
+      "name": "106.5 The Buzz",
+      "stream": "https://14123.live.streamtheworld.com/WHBZFMAAC_SC",
+      "url": "https://1065thebuzz.com/",
+      "logo": "images/106-5-the-buzz.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Hard Rock",
+        "Alternative",
+        "Metal",
+        "Rock"
+      ]
+    },
+    {
+      "name": "Savage Radio",
+      "stream": "https://streaming.live365.com/a68405",
+      "url": "https://savageradiorocks.weebly.com/",
+      "logo": "images/savage-radio.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Alternative",
+        "Indie",
+        "Punk",
+        "Rock"
+      ]
+    },
+    {
+      "name": "90.9 The Dragon",
+      "stream": "https://streaming.live365.com/a86728",
+      "url": "https://live365.com/station/The-Dragon-90-9---Pure-90s-Alternative-Rock-a86728",
+      "logo": "images/90-9-the-dragon.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "90s",
+        "Alternative",
+        "Grunge",
+        "Rock"
+      ]
+    },
+    {
+      "name": "The Vibe",
+      "stream": "https://das-edge15-live365-dal02.cdnstream.com/a68302",
+      "url": "https://montcalmvibe.com/",
+      "logo": "images/TheVibe.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "80s",
+        "90s",
+        "2000s"
+      ]
+    }
+  ]
+}
