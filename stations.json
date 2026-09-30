@@ -3724,6 +3724,129 @@
         "90s",
         "2000s"
       ]
+    },
+    {
+      "name": "Caprice Old School Rap",
+      "stream": "https://securestreams7.autopo.st/?uri=http://213.141.131.10:8002/oldschoolhiphop",
+      "url": "http://radcap.ru/oldschhiphop.html",
+      "logo": "images/caprice-old-school-rap.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Hip-Hop/Rap",
+        "Old School"
+      ]
+    },
+    {
+      "name": "Caprice West Coast Rap",
+      "stream": "https://securestreams7.autopo.st/?uri=http://79.120.39.202:8002/gangstarap",
+      "url": "http://radcap.ru/gangstarap.html",
+      "logo": "images/caprice-west-coast-rap.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Hip-Hop/Rap"
+      ]
+    },
+    {
+      "name": "Caprice East Coast Rap",
+      "stream": "https://securestreams7.autopo.st/?uri=http://79.111.14.76:8002/eastcoastrap",
+      "url": "http://radcap.ru/eastcoast.html",
+      "logo": "images/caprice-east-coast-rap.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Hip-Hop/Rap"
+      ]
+    },
+    {
+      "name": "Caprice Grunge",
+      "stream": "https://securestreams7.autopo.st/?uri=http://79.120.39.202:8002/grunge",
+      "url": "http://radcap.ru/grunge.html",
+      "logo": "images/caprice-grunge.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Grunge"
+      ]
+    },
+    {
+      "name": "8090 Music",
+      "stream": "https://8090music.duckdns.org/listen/8090_music/radio.mp3",
+      "url": "https://8090music.my.canva.site/",
+      "logo": "images/8090-music.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "80s",
+        "90s"
+      ]
+    },
+    {
+      "name": "Modern Rock Hard Radio",
+      "stream": "https://cast6.my-control-panel.com/proxy/modernrhr/stream",
+      "url": "https://www.modernrockhardradio.com/",
+      "logo": "images/modern-rock-hard-radio.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "name": "Nostalgia FM",
+      "stream": "https://securestreams7.autopo.st/?uri=http://172.82.160.250:8083/stream",
+      "url": "https://www.nostalgiafm.com.br/",
+      "logo": "images/nostalgia-fm.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Classic Hits"
+      ]
+    },
+    {
+      "name": "Radio Shadow",
+      "stream": "https://securestreams7.autopo.st/?uri=http://162.244.80.131:8020/stream",
+      "url": "",
+      "logo": "images/radio-shadow.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Classic Hits"
+      ]
+    },
+    {
+      "name": "UltraFan",
+      "stream": "https://securestreams7.autopo.st/?uri=http://45.144.66.54:8000/192",
+      "url": "",
+      "logo": "images/ultrafan.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Rock"
+      ]
+    },
+    {
+      "name": "The Zew",
+      "stream": "https://securestreams7.autopo.st/?uri=http://176.31.118.194:26094/;",
+      "url": "",
+      "logo": "images/the-zew.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Classic Rock"
+      ]
+    },
+    {
+      "name": "Rockin' Rose's 90s Grunge",
+      "stream": "https://securestreams7.autopo.st/?uri=http://135.148.122.113:8115/stream",
+      "url": "https://rockinrose.caster.fm",
+      "logo": "images/rockin-rose-s-90s-grunge.png",
+      "favorite": false,
+      "type": "Internet",
+      "genres": [
+        "Grunge"
+      ]
     }
   ]
 }
