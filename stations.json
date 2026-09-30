@@ -46,7 +46,8 @@
         "90s",
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "New Country",
@@ -57,7 +58,8 @@
       "type": "Internet",
       "genres": [
         "Country"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Classic Rock Channel",
@@ -69,7 +71,8 @@
       "genres": [
         "Classic Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Alternative Channel",
@@ -81,7 +84,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Awesome 80s Channel",
@@ -92,7 +96,8 @@
       "type": "Internet",
       "genres": [
         "80s"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Hair Band Channel",
@@ -105,7 +110,8 @@
         "Hair Metal",
         "Hard Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Hitz Channel",
@@ -116,7 +122,8 @@
       "type": "Internet",
       "genres": [
         "Pop"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Mix Channel",
@@ -128,7 +135,8 @@
       "genres": [
         "Pop",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Super Rock Mix",
@@ -139,7 +147,8 @@
       "type": "Internet",
       "genres": [
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Maximum 90's",
@@ -150,7 +159,8 @@
       "type": "Internet",
       "genres": [
         "90s"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Maximum Covers",
@@ -162,7 +172,8 @@
       "genres": [
         "Rock",
         "Alternative"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Maximum Depeche Mode",
@@ -175,7 +186,8 @@
         "Alternative",
         "New Wave",
         "Pop"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Maximum Grunge ",
@@ -188,7 +200,8 @@
         "Grunge",
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Maximum Heavy 80's",
@@ -199,7 +212,8 @@
       "type": "Internet",
       "genres": [
         "80s"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Maximum Indie",
@@ -212,7 +226,8 @@
         "Indie",
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Maximum Linkin Park",
@@ -225,7 +240,8 @@
         "Alternative",
         "Hard Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Maximum Metallica",
@@ -238,7 +254,8 @@
         "Metal",
         "Hard Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Maximum Nirvana",
@@ -251,7 +268,8 @@
         "Grunge",
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Maximum Ozzy",
@@ -264,7 +282,8 @@
         "Metal",
         "Hard Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Maximum Rugby",
@@ -276,7 +295,8 @@
       "genres": [
         "Rock",
         "Alternative"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Maximum Soft",
@@ -288,7 +308,8 @@
       "genres": [
         "Soft Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Maximum Supernova ",
@@ -300,7 +321,8 @@
       "genres": [
         "Rock",
         "Alternative"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Maximum Millennium",
@@ -311,7 +333,8 @@
       "type": "Internet",
       "genres": [
         "2000s"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Maximum Red Hot Chili Peppers",
@@ -323,7 +346,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Maximum Rock Hits",
@@ -334,7 +358,8 @@
       "type": "Internet",
       "genres": [
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Guns N' Roses",
@@ -347,7 +372,8 @@
         "Hard Rock",
         "Hair Metal",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Rolling Stones",
@@ -359,7 +385,8 @@
       "genres": [
         "Classic Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Taylor Swift",
@@ -371,7 +398,8 @@
       "genres": [
         "Pop",
         "Country"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "FFH Country Radio",
@@ -382,7 +410,8 @@
       "type": "Internet",
       "genres": [
         "Country"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "National",
@@ -394,7 +423,8 @@
       "genres": [
         "Rock",
         "Alternative"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Classic Rock",
@@ -406,7 +436,8 @@
       "genres": [
         "Classic Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Indie Rock",
@@ -419,7 +450,8 @@
         "Indie",
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Alternative Rock",
@@ -431,7 +463,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Top of the Week",
@@ -444,7 +477,8 @@
         "Rock",
         "Alternative",
         "Indie"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Garage Rock",
@@ -456,7 +490,8 @@
       "genres": [
         "Garage Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Girls Rock",
@@ -467,7 +502,8 @@
       "type": "Internet",
       "genres": [
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Blues 'n' Rock",
@@ -479,7 +515,8 @@
       "genres": [
         "Blues",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Bring The Noise",
@@ -493,7 +530,8 @@
         "Hard Rock",
         "Metal",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Summertime",
@@ -507,7 +545,8 @@
         "Pop",
         "Rock",
         "Soul/Funk"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Acoustic",
@@ -518,7 +557,8 @@
       "type": "Internet",
       "genres": [
         "Acoustic"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Woodstock Generation",
@@ -531,7 +571,8 @@
         "60s",
         "Classic Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Rock Ballads",
@@ -543,7 +584,8 @@
       "genres": [
         "Soft Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "60's Rock",
@@ -555,7 +597,8 @@
       "genres": [
         "60s",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "70's Rock",
@@ -567,7 +610,8 @@
       "genres": [
         "70s",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "80's Rock",
@@ -579,7 +623,8 @@
       "genres": [
         "80s",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "90's Rock",
@@ -591,7 +636,8 @@
       "genres": [
         "90s",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "2000's Rock",
@@ -603,7 +649,8 @@
       "genres": [
         "2000s",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Rock 'n' Food",
@@ -614,7 +661,8 @@
       "type": "Internet",
       "genres": [
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Def Leppard",
@@ -627,7 +675,8 @@
         "Hard Rock",
         "Hair Metal",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Guns N' Roses",
@@ -640,7 +689,8 @@
         "Hard Rock",
         "Hair Metal",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Led Zeppelin ",
@@ -653,7 +703,8 @@
         "Classic Rock",
         "Hard Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "R.E.M.",
@@ -665,7 +716,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Red Hot Chili Peppers ",
@@ -677,7 +729,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "90s Alternative",
@@ -690,7 +743,8 @@
         "90s",
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Old School Rap",
@@ -702,7 +756,8 @@
       "genres": [
         "Hip-Hop/Rap",
         "Old School"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "80s Hair Metal",
@@ -717,7 +772,8 @@
         "Hard Rock",
         "Rock",
         "Metal"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "80s Alternative ",
@@ -730,7 +786,8 @@
         "80s",
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Tom Petty",
@@ -742,7 +799,8 @@
       "genres": [
         "Classic Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Van Halen",
@@ -755,7 +813,8 @@
         "Hard Rock",
         "Hair Metal",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "U2",
@@ -767,7 +826,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Jason Aldean",
@@ -778,7 +838,8 @@
       "type": "Internet",
       "genres": [
         "Country"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "REM",
@@ -790,7 +851,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "REM Hits",
@@ -803,7 +865,8 @@
         "Pop",
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Def Leppard",
@@ -816,7 +879,8 @@
         "Hard Rock",
         "Hair Metal",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Taylor Swift",
@@ -828,7 +892,8 @@
       "genres": [
         "Pop",
         "Country"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Taylor Swift Hits",
@@ -840,7 +905,8 @@
       "genres": [
         "Pop",
         "Country"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Tom Petty",
@@ -852,7 +918,8 @@
       "genres": [
         "Classic Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Tom Petty Hits",
@@ -865,7 +932,8 @@
         "Pop",
         "Classic Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Nickelback",
@@ -877,7 +945,8 @@
       "genres": [
         "Rock",
         "Hard Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Aerosmith",
@@ -890,7 +959,8 @@
         "Classic Rock",
         "Hard Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Aerosmith Hits",
@@ -904,7 +974,8 @@
         "Classic Rock",
         "Hard Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Prince",
@@ -917,7 +988,8 @@
         "Pop",
         "Rock",
         "Funk"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Prince Hits",
@@ -930,7 +1002,8 @@
         "Pop",
         "Rock",
         "Funk"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Michael Jackson",
@@ -941,7 +1014,8 @@
       "type": "Internet",
       "genres": [
         "Pop"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Michael Jackson Hits",
@@ -952,7 +1026,8 @@
       "type": "Internet",
       "genres": [
         "Pop"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Led Zeppelin",
@@ -965,7 +1040,8 @@
         "Classic Rock",
         "Hard Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Led Zeppelin Hits",
@@ -979,7 +1055,8 @@
         "Classic Rock",
         "Hard Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Duran Duran",
@@ -991,7 +1068,8 @@
       "genres": [
         "New Wave",
         "Pop"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Duran Duran Hits",
@@ -1003,7 +1081,8 @@
       "genres": [
         "Pop",
         "New Wave"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "U2",
@@ -1015,7 +1094,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "U2 Hits",
@@ -1028,7 +1108,8 @@
         "Pop",
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "The Police",
@@ -1040,7 +1121,8 @@
       "genres": [
         "New Wave",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "The Police Hits",
@@ -1053,7 +1135,8 @@
         "Pop",
         "New Wave",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Eagles",
@@ -1066,7 +1149,8 @@
         "Classic Rock",
         "Soft Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Eagles Hits",
@@ -1080,7 +1164,8 @@
         "Classic Rock",
         "Soft Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "David Bowie",
@@ -1092,7 +1177,8 @@
       "genres": [
         "Rock",
         "Pop"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "David Bowie Hits",
@@ -1104,7 +1190,8 @@
       "genres": [
         "Pop",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Black Sabbath",
@@ -1117,7 +1204,8 @@
         "Metal",
         "Hard Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Black Crowes",
@@ -1129,7 +1217,8 @@
       "genres": [
         "Southern Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Brooks & Dunn",
@@ -1140,7 +1229,8 @@
       "type": "Internet",
       "genres": [
         "Country"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Brooks & Dunn",
@@ -1151,7 +1241,8 @@
       "type": "Internet",
       "genres": [
         "Country"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Garth Brooks",
@@ -1162,7 +1253,8 @@
       "type": "Internet",
       "genres": [
         "Country"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Garth Brooks",
@@ -1173,7 +1265,8 @@
       "type": "Internet",
       "genres": [
         "Country"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Beastie Boys",
@@ -1185,7 +1278,8 @@
       "genres": [
         "Hip-Hop/Rap",
         "Alternative"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Foo Fighters",
@@ -1197,7 +1291,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Guns N' Roses",
@@ -1210,7 +1305,8 @@
         "Hard Rock",
         "Hair Metal",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "INXS",
@@ -1223,7 +1319,8 @@
         "New Wave",
         "Rock",
         "Pop"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Heart",
@@ -1235,7 +1332,8 @@
       "genres": [
         "Classic Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Kenny Chesney",
@@ -1246,7 +1344,8 @@
       "type": "Internet",
       "genres": [
         "Country"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Kenny Chesney",
@@ -1257,7 +1356,8 @@
       "type": "Internet",
       "genres": [
         "Country"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Van Halen",
@@ -1270,7 +1370,8 @@
         "Hard Rock",
         "Hair Metal",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Pet Shop Boys",
@@ -1282,7 +1383,8 @@
       "genres": [
         "New Wave",
         "Pop"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Pet Shop Boys Hits",
@@ -1294,7 +1396,8 @@
       "genres": [
         "Pop",
         "New Wave"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Red Hot Chili Peppers",
@@ -1306,7 +1409,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Run-DMC",
@@ -1318,7 +1422,8 @@
       "genres": [
         "Hip-Hop/Rap",
         "Old School"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Scorpions",
@@ -1331,7 +1436,8 @@
         "Hard Rock",
         "Hair Metal",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "STP",
@@ -1344,7 +1450,8 @@
         "Grunge",
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Tears For Fears",
@@ -1356,7 +1463,8 @@
       "genres": [
         "New Wave",
         "Pop"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "80's Country",
@@ -1368,7 +1476,8 @@
       "genres": [
         "80s",
         "Country"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "90's Country",
@@ -1380,7 +1489,8 @@
       "genres": [
         "90s",
         "Country"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Brad Paisley",
@@ -1391,7 +1501,8 @@
       "type": "Internet",
       "genres": [
         "Country"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Chris Stapleton",
@@ -1402,7 +1513,8 @@
       "type": "Internet",
       "genres": [
         "Country"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Keith Urban",
@@ -1413,7 +1525,8 @@
       "type": "Internet",
       "genres": [
         "Country"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Randy Travis",
@@ -1424,7 +1537,8 @@
       "type": "Internet",
       "genres": [
         "Country"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "The Judds",
@@ -1435,7 +1549,8 @@
       "type": "Internet",
       "genres": [
         "Country"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Tim McGraw",
@@ -1446,7 +1561,8 @@
       "type": "Internet",
       "genres": [
         "Country"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Today's Country",
@@ -1457,7 +1573,8 @@
       "type": "Internet",
       "genres": [
         "Country"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Today's Country Boys",
@@ -1468,7 +1585,8 @@
       "type": "Internet",
       "genres": [
         "Country"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Today's Country Girls",
@@ -1479,7 +1597,8 @@
       "type": "Internet",
       "genres": [
         "Country"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Zac Brown Band",
@@ -1491,7 +1610,8 @@
       "genres": [
         "Country",
         "Country Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Country",
@@ -1502,7 +1622,8 @@
       "type": "Internet",
       "genres": [
         "Country"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Disco",
@@ -1514,7 +1635,8 @@
       "genres": [
         "Disco",
         "Dance"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Soft Rock",
@@ -1526,7 +1648,8 @@
       "genres": [
         "Soft Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "The 70's 80's & 90's",
@@ -1541,7 +1664,8 @@
         "90s",
         "Pop",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Alt Rock",
@@ -1553,7 +1677,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Classic Rock",
@@ -1565,7 +1690,8 @@
       "genres": [
         "Classic Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Country Rock",
@@ -1577,7 +1703,8 @@
       "genres": [
         "Country",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Rock",
@@ -1588,7 +1715,8 @@
       "type": "Internet",
       "genres": [
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Rock N Roll",
@@ -1599,7 +1727,8 @@
       "type": "Internet",
       "genres": [
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Todays Hits",
@@ -1610,7 +1739,8 @@
       "type": "Internet",
       "genres": [
         "Pop"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Rolling Stones",
@@ -1622,7 +1752,8 @@
       "genres": [
         "Classic Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Rolling Stones Hits",
@@ -1635,7 +1766,8 @@
         "Pop",
         "Classic Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Hood Hierarchy",
@@ -1646,7 +1778,8 @@
       "type": "Internet",
       "genres": [
         "Hip-Hop/Rap"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "BlackBox Classic US",
@@ -1658,7 +1791,8 @@
       "genres": [
         "Hip-Hop/Rap",
         "Old School"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "BlackBox US",
@@ -1669,7 +1803,8 @@
       "type": "Internet",
       "genres": [
         "Hip-Hop/Rap"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Generations Rap US",
@@ -1680,7 +1815,8 @@
       "type": "Internet",
       "genres": [
         "Hip-Hop/Rap"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Generations Rap US Classic",
@@ -1692,7 +1828,8 @@
       "genres": [
         "Hip-Hop/Rap",
         "Old School"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Generations Brand New",
@@ -1703,7 +1840,8 @@
       "type": "Internet",
       "genres": [
         "Hip-Hop/Rap"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Generations No Pain No Gain",
@@ -1714,7 +1852,8 @@
       "type": "Internet",
       "genres": [
         "Hip-Hop/Rap"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Generations NewJack",
@@ -1725,7 +1864,8 @@
       "type": "Internet",
       "genres": [
         "Hip-Hop/Rap"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Delta Grunge",
@@ -1738,7 +1878,8 @@
         "Grunge",
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "BOB Grunge",
@@ -1751,7 +1892,8 @@
         "Grunge",
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Big R Grunge FM",
@@ -1764,7 +1906,8 @@
         "Grunge",
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "9090s Grunge",
@@ -1778,7 +1921,8 @@
         "Grunge",
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "LiSTNR Grunge",
@@ -1791,7 +1935,8 @@
         "Grunge",
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Labgate Radio Alt Rock Grunge",
@@ -1804,7 +1949,8 @@
         "Grunge",
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Radio Sydney - Grunge",
@@ -1817,7 +1963,8 @@
         "Grunge",
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Rock Antenne Grunge",
@@ -1830,7 +1977,8 @@
         "Grunge",
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "RMF Grunge",
@@ -1843,7 +1991,8 @@
         "Grunge",
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "LITT Live Grunge - 90's Rock",
@@ -1857,7 +2006,8 @@
         "Grunge",
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Maximum Grunge ",
@@ -1870,7 +2020,8 @@
         "Grunge",
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "SuperGrunge Radio",
@@ -1883,7 +2034,8 @@
         "Grunge",
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Grunge/The 90s",
@@ -1897,7 +2049,8 @@
         "Grunge",
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Pop in the 80's",
@@ -1909,7 +2062,8 @@
       "genres": [
         "80s",
         "Pop"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "The Big 80s Station",
@@ -1920,7 +2074,8 @@
       "type": "Internet",
       "genres": [
         "80s"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "HITS 80s",
@@ -1932,7 +2087,8 @@
       "genres": [
         "80s",
         "Pop"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Rock Hard Unplugged ",
@@ -1944,7 +2100,8 @@
       "genres": [
         "Acoustic",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "AntyRadio Unplugged",
@@ -1955,7 +2112,8 @@
       "type": "Internet",
       "genres": [
         "Acoustic"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Big Hair Radio",
@@ -1968,7 +2126,8 @@
         "Hair Metal",
         "Hard Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "The Dump Radio ",
@@ -1984,7 +2143,8 @@
         "Grunge",
         "Indie",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "CAYA Radio",
@@ -2000,7 +2160,8 @@
         "Indie",
         "Punk",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "WYML 99.9",
@@ -2014,7 +2175,8 @@
         "Classic Hits",
         "Classic Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Edge Wave Radio",
@@ -2027,7 +2189,8 @@
         "Alternative",
         "Indie",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Bollocks Rock & Metal Radio",
@@ -2040,7 +2203,8 @@
         "Metal",
         "Hard Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Planet Flannel Radio",
@@ -2053,7 +2217,8 @@
         "Grunge",
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "BFBS Edge",
@@ -2066,7 +2231,8 @@
         "Alternative",
         "Indie",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "99X",
@@ -2078,7 +2244,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "91X",
@@ -2090,7 +2257,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Big Dog 106",
@@ -2104,7 +2272,8 @@
         "Hard Rock",
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "radio 2810 alternative",
@@ -2116,7 +2285,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "New Rock 102 One",
@@ -2127,7 +2297,8 @@
       "type": "Internet",
       "genres": [
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "The Dude Radio Cincinnati",
@@ -2141,7 +2312,8 @@
         "Alternative",
         "Hip-Hop/Rap",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "96.7 The X",
@@ -2153,7 +2325,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Turnpike 94",
@@ -2165,7 +2338,8 @@
       "genres": [
         "Country",
         "Country Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "The Mullet Country",
@@ -2176,7 +2350,8 @@
       "type": "Internet",
       "genres": [
         "Country"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "The Country Crossroads",
@@ -2187,7 +2362,8 @@
       "type": "Internet",
       "genres": [
         "Country"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "A1 Real American Country",
@@ -2198,7 +2374,8 @@
       "type": "Internet",
       "genres": [
         "Country"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "94.7 The Block",
@@ -2209,7 +2386,8 @@
       "type": "On Air",
       "genres": [
         "Hip-Hop/Rap"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Hot 96.9",
@@ -2220,7 +2398,8 @@
       "type": "On Air",
       "genres": [
         "Hip-Hop/Rap"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "105.1 The Bounce",
@@ -2231,7 +2410,8 @@
       "type": "On Air",
       "genres": [
         "Hip-Hop/Rap"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "95.1 WAPE",
@@ -2242,7 +2422,8 @@
       "type": "On Air",
       "genres": [
         "Pop"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "102.7 KIIS-FM",
@@ -2253,7 +2434,8 @@
       "type": "On Air",
       "genres": [
         "Pop"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Z100 New York",
@@ -2264,7 +2446,8 @@
       "type": "On Air",
       "genres": [
         "Pop"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "103.5 The Vault",
@@ -2276,7 +2459,8 @@
       "genres": [
         "Classic Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Power 99.1 FM",
@@ -2287,7 +2471,8 @@
       "type": "On Air",
       "genres": [
         "Pop"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "K Country",
@@ -2298,7 +2483,8 @@
       "type": "Internet",
       "genres": [
         "Country"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "93.5 KDAY",
@@ -2309,7 +2495,8 @@
       "type": "On Air",
       "genres": [
         "Hip-Hop/Rap"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Hot 95.1",
@@ -2320,7 +2507,8 @@
       "type": "On Air",
       "genres": [
         "Hip-Hop/Rap"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Old School 104.7",
@@ -2331,7 +2519,8 @@
       "type": "On Air",
       "genres": [
         "Hip-Hop/Rap"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "ALT 103.7",
@@ -2343,7 +2532,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "96 Rock",
@@ -2354,7 +2544,8 @@
       "type": "On Air",
       "genres": [
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Rock 103",
@@ -2365,7 +2556,8 @@
       "type": "On Air",
       "genres": [
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "The Whale 99.1",
@@ -2377,7 +2569,8 @@
       "genres": [
         "Classic Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "WVFS Tallahassee",
@@ -2390,7 +2583,8 @@
         "Alternative",
         "Indie",
         "College/Freeform"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Radio Rock Hits",
@@ -2401,7 +2595,8 @@
       "type": "Internet",
       "genres": [
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "EDGE FM",
@@ -2414,7 +2609,8 @@
         "Alternative",
         "Indie",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Z-104.5 THE EDGE",
@@ -2426,7 +2622,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "BDPST ROCK",
@@ -2437,7 +2634,8 @@
       "type": "Internet",
       "genres": [
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Country 97",
@@ -2448,7 +2646,8 @@
       "type": "On Air",
       "genres": [
         "Country"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "100.1 Bay FM",
@@ -2461,7 +2660,8 @@
         "Classic Hits",
         "Pop",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "94.3 The GOAT",
@@ -2473,7 +2673,8 @@
       "genres": [
         "Classic Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "PureRock.US",
@@ -2484,7 +2685,8 @@
       "type": "Internet",
       "genres": [
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Metal Rock Radio",
@@ -2497,7 +2699,8 @@
         "Metal",
         "Hard Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "MetalRock.FM",
@@ -2510,7 +2713,8 @@
         "Metal",
         "Hard Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Rock 95.7",
@@ -2521,7 +2725,8 @@
       "type": "On Air",
       "genres": [
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "107dot5",
@@ -2533,7 +2738,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "94.7/102.9 The Beast",
@@ -2547,7 +2753,8 @@
         "Alternative",
         "Metal",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "The Resistance 106.7",
@@ -2559,7 +2766,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "104.3 The Fuse",
@@ -2572,7 +2780,8 @@
         "Alternative",
         "Indie",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Country Rock",
@@ -2584,7 +2793,8 @@
       "genres": [
         "Country",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Altrok Radio",
@@ -2598,7 +2808,8 @@
         "Indie",
         "Rock",
         "New Wave"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "AROCK Radio",
@@ -2609,7 +2820,8 @@
       "type": "Internet",
       "genres": [
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Megarock Radio",
@@ -2620,7 +2832,8 @@
       "type": "Internet",
       "genres": [
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Hard&Metal: Sonora Classic Rock",
@@ -2634,7 +2847,8 @@
         "Rock",
         "Metal",
         "Hard Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Soft Rock: Sonora Classic Rock",
@@ -2647,7 +2861,8 @@
         "Classic Rock",
         "Rock",
         "Soft Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "X107.5 Real Alternative",
@@ -2659,7 +2874,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "KINK",
@@ -2673,7 +2889,8 @@
         "Indie",
         "Rock",
         "New Wave"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "106.3 LaFayette's Rock & Alternative",
@@ -2685,7 +2902,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "KROQ",
@@ -2697,7 +2915,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "The SoCal Sound",
@@ -2711,7 +2930,8 @@
         "Indie",
         "Americana",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "93XRT",
@@ -2725,7 +2945,8 @@
         "Indie",
         "Rock",
         "Classic Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Lightning 100",
@@ -2739,7 +2960,8 @@
         "Indie",
         "Americana",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Birmingham Mountain Radio",
@@ -2753,7 +2975,8 @@
         "Indie",
         "Americana",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "KXT 91.7",
@@ -2767,7 +2990,8 @@
         "Indie",
         "Americana",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "90’s Alternative Hitz",
@@ -2779,7 +3003,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Digital Hits Radio",
@@ -2790,7 +3015,8 @@
       "type": "Internet",
       "genres": [
         "Pop"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "DARE FM",
@@ -2806,7 +3032,8 @@
         "Indie",
         "New Wave",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Classic Alternative",
@@ -2818,7 +3045,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "8erfeld",
@@ -2832,7 +3060,8 @@
         "Pop",
         "Rock",
         "New Wave"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Radio Underground",
@@ -2845,7 +3074,8 @@
         "Alternative",
         "Indie",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Edge Wave",
@@ -2858,7 +3088,8 @@
         "Alternative",
         "Indie",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Make Grunge Great Again",
@@ -2871,7 +3102,8 @@
         "Grunge",
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "No Mundo do Rock",
@@ -2882,7 +3114,8 @@
       "type": "Internet",
       "genres": [
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "AlternativeFM",
@@ -2894,7 +3127,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Radio X",
@@ -2906,7 +3140,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "98Rock",
@@ -2917,7 +3152,8 @@
       "type": "Internet",
       "genres": [
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "106 Rock",
@@ -2928,7 +3164,8 @@
       "type": "Internet",
       "genres": [
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Outlaw Radio",
@@ -2940,7 +3177,8 @@
       "genres": [
         "Country",
         "Country Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "89FM A Radio Rock",
@@ -2951,7 +3189,8 @@
       "type": "On Air",
       "genres": [
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Totally Radio 80s",
@@ -2962,7 +3201,8 @@
       "type": "Internet",
       "genres": [
         "80s"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Totally Radio Rock",
@@ -2973,7 +3213,8 @@
       "type": "Internet",
       "genres": [
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Totally Radio Country",
@@ -2984,7 +3225,8 @@
       "type": "Internet",
       "genres": [
         "Country"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Totally Radio 90s",
@@ -2995,7 +3237,8 @@
       "type": "Internet",
       "genres": [
         "90s"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "FluxFM HipHop Classics",
@@ -3006,7 +3249,8 @@
       "type": "Internet",
       "genres": [
         "Hip-Hop/Rap"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "FluxFM Alternative",
@@ -3018,7 +3262,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "FluxFM 80s",
@@ -3029,7 +3274,8 @@
       "type": "Internet",
       "genres": [
         "80s"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "FluxFM 90s",
@@ -3040,7 +3286,8 @@
       "type": "Internet",
       "genres": [
         "90s"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "RPR1 Old School Hip-Hop",
@@ -3052,7 +3299,8 @@
       "genres": [
         "Hip-Hop/Rap",
         "Old School"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "RPR1 Acoustic",
@@ -3063,7 +3311,8 @@
       "type": "Internet",
       "genres": [
         "Acoustic"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "RPR1 80s Pop Rock",
@@ -3076,7 +3325,8 @@
         "80s",
         "Pop",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "RPR1 Rock",
@@ -3087,7 +3337,8 @@
       "type": "Internet",
       "genres": [
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "RPR1 Heavy Metal",
@@ -3100,7 +3351,8 @@
         "Metal",
         "Hard Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "RPR1 Country",
@@ -3111,7 +3363,8 @@
       "type": "Internet",
       "genres": [
         "Country"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "RPR1 80S",
@@ -3122,7 +3375,8 @@
       "type": "Internet",
       "genres": [
         "80s"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "RPR1 90s Rock",
@@ -3134,7 +3388,8 @@
       "genres": [
         "90s",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "100.7FM The Viper",
@@ -3146,7 +3401,8 @@
       "genres": [
         "Classic Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "THE GUMP 104.9FM",
@@ -3158,7 +3414,8 @@
       "genres": [
         "Classic Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "96.5 The Alternative",
@@ -3170,7 +3427,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Acid Flashback",
@@ -3185,7 +3443,8 @@
         "Psychedelic Rock",
         "Classic Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "104.9 The Rebel",
@@ -3197,7 +3456,8 @@
       "genres": [
         "Classic Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "93.7 WVLZ",
@@ -3211,7 +3471,8 @@
         "Alternative",
         "Metal",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "The Ranch Radio",
@@ -3222,7 +3483,8 @@
       "type": "Internet",
       "genres": [
         "Country"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Rock Rage Radio",
@@ -3233,7 +3495,8 @@
       "type": "Internet",
       "genres": [
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "LITT Grunge",
@@ -3246,7 +3509,8 @@
         "Grunge",
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "LITT Rock",
@@ -3257,7 +3521,8 @@
       "type": "Internet",
       "genres": [
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "LITT Alt",
@@ -3269,7 +3534,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "LITT 1580 - Classic Hip-Hop",
@@ -3280,7 +3546,8 @@
       "type": "Internet",
       "genres": [
         "Hip-Hop/Rap"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "The Strip Hair Bands",
@@ -3293,7 +3560,8 @@
         "Hair Metal",
         "Hard Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "XROCK 95.9 FM",
@@ -3304,7 +3572,8 @@
       "type": "On Air",
       "genres": [
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "502 Rock Radio",
@@ -3315,7 +3584,8 @@
       "type": "Internet",
       "genres": [
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Asterisk Radio",
@@ -3329,7 +3599,8 @@
         "New Wave",
         "Pop",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "93-Z KAMZ 80s El Paso",
@@ -3340,7 +3611,8 @@
       "type": "Internet",
       "genres": [
         "80s"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Channel 106 90s Rock ",
@@ -3352,7 +3624,8 @@
       "genres": [
         "90s",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "KIX FM",
@@ -3363,7 +3636,8 @@
       "type": "On Air",
       "genres": [
         "Country"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "UturnRadio",
@@ -3376,7 +3650,8 @@
         "Alternative",
         "Rock",
         "Metal"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Mark Skin Radio",
@@ -3390,7 +3665,8 @@
         "Indie",
         "Blues",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Radio Hilgen",
@@ -3402,7 +3678,8 @@
       "genres": [
         "Pop",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Crossroads La Grange – Classic Hits",
@@ -3414,7 +3691,8 @@
       "genres": [
         "Pop",
         "Classic Hits"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Radio Octopus",
@@ -3427,7 +3705,8 @@
         "Alternative",
         "Indie",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "HD-R.NET Rock",
@@ -3438,7 +3717,8 @@
       "type": "Internet",
       "genres": [
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "HD-R.NET The 80s",
@@ -3449,7 +3729,8 @@
       "type": "Internet",
       "genres": [
         "80s"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "HD-R.NET Classic Rock",
@@ -3461,7 +3742,8 @@
       "genres": [
         "Classic Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "HD-R.NET Country",
@@ -3472,7 +3754,8 @@
       "type": "Internet",
       "genres": [
         "Country"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "HD-R.NET Party Mix",
@@ -3483,7 +3766,8 @@
       "type": "Internet",
       "genres": [
         "Dance"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Z103.3 Real Rock",
@@ -3494,7 +3778,8 @@
       "type": "On Air",
       "genres": [
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "AltRock IsDead.com",
@@ -3506,7 +3791,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Village Radio",
@@ -3519,7 +3805,8 @@
         "Classic Hits",
         "Pop",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Dirty South Radio",
@@ -3530,7 +3817,8 @@
       "type": "Internet",
       "genres": [
         "Hip-Hop/Rap"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "The Edge",
@@ -3542,7 +3830,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Alt 92.3 FM",
@@ -3554,7 +3843,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "X-96",
@@ -3566,7 +3856,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "X96 Classic",
@@ -3580,7 +3871,8 @@
         "Alternative",
         "New Wave",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "107.3 Alternative Cleveland",
@@ -3592,7 +3884,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Lazer 99.3",
@@ -3606,7 +3899,8 @@
         "Alternative",
         "Metal",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "94/7 FM",
@@ -3618,7 +3912,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "99.3 The X",
@@ -3630,7 +3925,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "The X 100.7",
@@ -3642,7 +3938,8 @@
       "genres": [
         "Alternative",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Eagle 107",
@@ -3654,7 +3951,8 @@
       "genres": [
         "Classic Rock",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "KOOL 98.3",
@@ -3668,7 +3966,8 @@
         "80s",
         "Pop",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "106.5 The Buzz",
@@ -3682,7 +3981,8 @@
         "Alternative",
         "Metal",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Savage Radio",
@@ -3696,7 +3996,8 @@
         "Indie",
         "Punk",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "90.9 The Dragon",
@@ -3710,7 +4011,8 @@
         "Alternative",
         "Grunge",
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "The Vibe",
@@ -3723,7 +4025,8 @@
         "80s",
         "90s",
         "2000s"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Caprice Old School Rap",
@@ -3735,7 +4038,8 @@
       "genres": [
         "Hip-Hop/Rap",
         "Old School"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Caprice West Coast Rap",
@@ -3746,7 +4050,8 @@
       "type": "Internet",
       "genres": [
         "Hip-Hop/Rap"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Caprice East Coast Rap",
@@ -3757,7 +4062,8 @@
       "type": "Internet",
       "genres": [
         "Hip-Hop/Rap"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Caprice Grunge",
@@ -3768,7 +4074,8 @@
       "type": "Internet",
       "genres": [
         "Grunge"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "8090 Music",
@@ -3780,7 +4087,8 @@
       "genres": [
         "80s",
         "90s"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Modern Rock Hard Radio",
@@ -3791,7 +4099,8 @@
       "type": "Internet",
       "genres": [
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Nostalgia FM",
@@ -3802,7 +4111,8 @@
       "type": "Internet",
       "genres": [
         "Classic Hits"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Radio Shadow",
@@ -3813,7 +4123,8 @@
       "type": "Internet",
       "genres": [
         "Classic Hits"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "UltraFan",
@@ -3824,7 +4135,8 @@
       "type": "Internet",
       "genres": [
         "Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "The Zew",
@@ -3835,7 +4147,8 @@
       "type": "Internet",
       "genres": [
         "Classic Rock"
-      ]
+      ],
+      "visible": true
     },
     {
       "name": "Rockin' Rose's 90s Grunge",
@@ -3846,7 +4159,8 @@
       "type": "Internet",
       "genres": [
         "Grunge"
-      ]
+      ],
+      "visible": true
     }
   ]
 }
