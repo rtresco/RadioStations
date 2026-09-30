@@ -30,9 +30,9 @@ tbody tr:hover{background:#eee}
 .name{font-weight:700;min-width:190px}
 .cell{width:100%;border:1px solid transparent;background:transparent;border-radius:5px;padding:5px}
 .cell:focus{background:#fff;border-color:#888;outline:none}
-.logo-cell{width:145px;text-align:center}
-.logo-cell img{width:36px;height:36px;object-fit:contain;border-radius:5px;background:#eee;display:block;margin:0 auto 5px}
-.logo-path{font-size:11px;width:100%;padding:4px}
+.logo-cell{width:260px;min-width:260px}
+.logo-cell img{width:36px;height:36px;object-fit:contain;border-radius:5px;background:#eee;display:block;flex:0 0 36px}
+.logo-wrap{display:flex;align-items:center;gap:7px}.logo-path{font-size:11px;width:185px;min-width:0;padding:4px}
 .bool{font-size:19px;text-align:center;width:75px}
 .bool button{border:0;background:transparent;font-size:19px;padding:2px 7px}
 .bool button.yes{color:#16833b}
@@ -42,16 +42,16 @@ tbody tr:hover{background:#eee}
 .pill{display:inline-block;padding:3px 7px;border-radius:999px;background:#eee;border:1px solid #bbb;font-size:11px}
 .edit-icon{border:0;background:transparent;padding:2px 4px;font-size:15px;line-height:1;color:#555}
 .edit-icon:hover{color:#111;background:#ddd}
-.url{min-width:280px}
+.type-cell{width:105px;min-width:105px}.type-select{min-width:95px}.url{min-width:280px}
 .rownum{color:#777;width:45px;text-align:center}
 .note{color:#bbb;font-size:12px;margin-top:10px}
 .empty{padding:60px;text-align:center;color:#666}
 .modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.65);display:none;align-items:center;justify-content:center;z-index:20;padding:20px}
 .modal-backdrop.open{display:flex}
-.modal{background:#ddd;color:#222;width:min(700px,100%);max-height:85vh;border-radius:12px;padding:18px;box-shadow:0 15px 50px rgba(0,0,0,.45)}
+.modal{background:#ddd;color:#222;width:min(700px,100%);max-height:calc(100vh - 30px);overflow:auto;border-radius:12px;padding:18px;box-shadow:0 15px 50px rgba(0,0,0,.45)}
 .modal h2{margin:0 0 12px;font-size:20px}
-.genre-options{display:flex;flex-wrap:wrap;gap:7px;max-height:55vh;overflow:auto;padding:5px 2px}
-.genre-option{border:1px solid #aaa;background:#f5f5f5;border-radius:999px;padding:7px 11px;cursor:pointer}
+.genre-options{display:flex;flex-wrap:wrap;gap:5px;max-height:30vh;overflow:auto;padding:3px 2px}
+.genre-option{border:1px solid #aaa;background:#f5f5f5;border-radius:999px;padding:4px 8px;cursor:pointer;font-size:11px;line-height:1.2}
 .genre-option.selected{background:#222;color:#fff;border-color:#222}
 .modal-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:16px}
 .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:11px}
@@ -301,13 +301,15 @@ function render(){
     return `<tr>
       <td class="rownum">${n+1}</td>
       <td class="logo-cell">
-        <img src="${esc(s.logo||'')}" alt="" onerror="this.style.visibility='hidden'" onload="this.style.visibility='visible'">
-        <input class="logo-path" value="${esc(s.logo||'')}" onchange="edit(${i},'logo',this.value);this.previousElementSibling.src=this.value;this.previousElementSibling.style.visibility='visible'">
+        <div class="logo-wrap">
+          <img src="${esc(s.logo||'')}" alt="" onerror="this.style.visibility='hidden'" onload="this.style.visibility='visible'">
+          <input class="logo-path" value="${esc(s.logo||'')}" onchange="edit(${i},'logo',this.value);this.previousElementSibling.src=this.value;this.previousElementSibling.style.visibility='visible'">
+        </div>
       </td>
       <td class="name"><input class="cell" value="${esc(s.name)}" onchange="edit(${i},'name',this.value)"></td>
       <td class="bool"><button class="${s.favorite?'yes':'no'}" onclick="toggleBool(${i},'favorite')">${s.favorite?'★':'☆'}</button></td>
       <td class="bool"><button class="${s.visible?'yes':'no'}" onclick="toggleBool(${i},'visible')">${s.visible?'✓':'✕'}</button></td>
-      <td><select class="cell" onchange="edit(${i},'type',this.value)"><option ${s.type==='Internet'?'selected':''}>Internet</option><option ${s.type==='On Air'?'selected':''}>On Air</option></select></td>
+      <td class="type-cell"><select class="cell type-select" onchange="edit(${i},'type',this.value)"><option ${s.type==='Internet'?'selected':''}>Internet</option><option ${s.type==='On Air'?'selected':''}>On Air</option></select></td>
       <td class="genres">
         <div class="genre-list">
           ${genres.map(g=>`<span class="pill">${esc(g)}</span>`).join('')}
