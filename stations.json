@@ -2063,7 +2063,7 @@
         "80s",
         "Pop"
       ],
-      "visible": true
+      "visible": false
     },
     {
       "name": "The Big 80s Station",
@@ -4160,7 +4160,7 @@
       "genres": [
         "Grunge"
       ],
-      "visible": true
+      "visible": false
     }
   ]
 }
