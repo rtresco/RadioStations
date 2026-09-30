@@ -107,6 +107,7 @@ function render(){
   const list=[];
   for(let i=0;i<stations.length;i++){
     const s=stations[i],gs=Array.isArray(s.genres)?s.genres:[];
+    if(s.visible!==true)continue;
     if(favOnly&&!s.favorite)continue;
     if(typeFilter!=='all'&&s.type!==typeFilter)continue;
     if(g&&!gs.includes(g))continue;
