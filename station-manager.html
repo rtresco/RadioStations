@@ -1,7 +1,249 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Station Manager</title><style>
-:root{--bg:#111;--panel:#c0c0c0;--ink:#222;--line:#aaa;--accent:#808080}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:#fff;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif}header{position:sticky;top:0;z-index:5;background:#222;border-bottom:1px solid #444}.wrap{max-width:1500px;margin:auto;padding:18px 22px}.top{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}h1{margin:0;font-size:27px}.stats{font-size:14px;color:#ccc}.controls{display:flex;gap:9px;flex-wrap:wrap;margin-top:15px}input,select,button{font:inherit;border:1px solid var(--line);border-radius:8px;padding:9px 11px}input,select{background:#fff;color:#222}#search{min-width:280px;flex:1}button{cursor:pointer;background:#fff;color:#222}main{max-width:1500px;margin:auto;padding:18px 22px 60px}.table-wrap{overflow:auto;background:var(--panel);border-radius:10px;border:1px solid #888}table{width:100%;border-collapse:collapse;color:var(--ink);font-size:13px;min-width:1150px}thead{position:sticky;top:0;background:#ddd;z-index:2}th,td{border-bottom:1px solid #aaa;padding:7px 8px;text-align:left;vertical-align:middle}th{font-weight:700;white-space:nowrap}tbody tr:nth-child(even){background:#d5d5d5}tbody tr:hover{background:#eee}.name{font-weight:700;min-width:190px}.cell{width:100%;border:1px solid transparent;background:transparent;border-radius:5px;padding:5px}.cell:focus{background:#fff;border-color:#888;outline:none}.logo-cell{width:50px;text-align:center}.logo-cell img{width:36px;height:36px;object-fit:contain;border-radius:5px;background:#eee}.bool{font-size:19px;text-align:center;width:75px}.bool button{border:0;background:transparent;font-size:19px;padding:2px 7px}.bool button.yes{color:#16833b}.bool button.no{color:#a33}.genres{min-width:180px}.url{min-width:280px}.rownum{color:#777;width:45px;text-align:center}.note{color:#bbb;font-size:12px;margin-top:10px}.empty{padding:60px;text-align:center;color:#666}@media(max-width:700px){.wrap,main{padding-left:12px;padding-right:12px}#search{min-width:100%}}
-</style></head><body><header><div class="wrap"><div class="top"><h1>Station Manager</h1><div class="stats" id="stats">Loading…</div></div><div class="controls"><input id="search" placeholder="Search stations…"><select id="genre"><option value="">All Genres</option></select><select id="type"><option value="">All Types</option><option>Internet</option><option>On Air</option></select><select id="visibility"><option value="">All Visibility</option><option value="true">Visible</option><option value="false">Hidden</option></select><select id="favorite"><option value="">All Favorites</option><option value="true">Favorites</option><option value="false">Not Favorites</option></select></div></div></header><main><div class="table-wrap"><table><thead><tr><th>#</th><th>Logo</th><th>Station</th><th>Favorite</th><th>Visible</th><th>Type</th><th>Genres</th><th>Stream</th><th>Website</th></tr></thead><tbody id="body"></tbody></table></div><div class="note">Prototype only — edits are local to this page and are not written back to stations.json yet.</div></main><script>
-let stations=[];const body=document.getElementById('body'),search=document.getElementById('search'),genre=document.getElementById('genre'),type=document.getElementById('type'),visibility=document.getElementById('visibility'),favorite=document.getElementById('favorite'),stats=document.getElementById('stats');
-function esc(v){return String(v??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}function populateGenres(){const gs=[...new Set(stations.flatMap(s=>Array.isArray(s.genres)?s.genres:[]))].sort((a,b)=>a.localeCompare(b));genre.innerHTML='<option value="">All Genres</option>'+gs.map(g=>`<option>${esc(g)}</option>`).join('')}function toggleBool(i,key){stations[i][key]=stations[i][key]===true?false:true;render()}function edit(i,key,value){stations[i][key]=value}function render(){const q=search.value.trim().toLowerCase(),g=genre.value,t=type.value,v=visibility.value,f=favorite.value,rows=[];stations.forEach((s,i)=>{if(q&&!s.name.toLowerCase().includes(q))return;if(g&&!(s.genres||[]).includes(g))return;if(t&&s.type!==t)return;if(v&&String(s.visible)!==v)return;if(f&&String(s.favorite)!==f)return;rows.push([s,i])});stats.textContent=`${rows.length} of ${stations.length} stations`;body.innerHTML=rows.length?rows.map(([s,i],n)=>`<tr><td class="rownum">${n+1}</td><td class="logo-cell">${s.logo?`<img src="${esc(s.logo)}" alt="">`:''}</td><td class="name"><input class="cell" value="${esc(s.name)}" onchange="edit(${i},'name',this.value)"></td><td class="bool"><button class="${s.favorite?'yes':'no'}" onclick="toggleBool(${i},'favorite')">${s.favorite?'★':'☆'}</button></td><td class="bool"><button class="${s.visible?'yes':'no'}" onclick="toggleBool(${i},'visible')">${s.visible?'✓':'✕'}</button></td><td><select class="cell" onchange="edit(${i},'type',this.value)"><option ${s.type==='Internet'?'selected':''}>Internet</option><option ${s.type==='On Air'?'selected':''}>On Air</option></select></td><td class="genres"><input class="cell" value="${esc((s.genres||[]).join(', '))}" onchange="edit(${i},'genres',this.value.split(',').map(x=>x.trim()).filter(Boolean))"></td><td class="url"><input class="cell" value="${esc(s.stream)}" onchange="edit(${i},'stream',this.value)"></td><td class="url"><input class="cell" value="${esc(s.url)}" onchange="edit(${i},'url',this.value)"></td></tr>`).join(''):`<tr><td colspan="9" class="empty">No stations match your filters.</td></tr>`}[search,genre,type,visibility,favorite].forEach(el=>el.addEventListener(el===search?'input':'change',render));
-async function load(){try{const r=await fetch('stations.json',{cache:'no-store'});if(!r.ok)throw new Error(`HTTP ${r.status}`);const d=await r.json();if(!Array.isArray(d.stations))throw new Error('Invalid stations array');stations=d.stations;populateGenres();render()}catch(e){stats.textContent='Unable to load stations.json';body.innerHTML='<tr><td colspan="9" class="empty">Unable to load stations.json.<br>Make sure station-manager.html is in the same directory as stations.json.</td></tr>'}}load();
-</script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Station Manager</title>
+<style>
+:root{--bg:#111;--panel:#c0c0c0;--ink:#222;--line:#aaa;--accent:#808080;--dark:#222}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:#fff;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+header{position:sticky;top:0;z-index:5;background:var(--dark);border-bottom:1px solid #444}
+.wrap{max-width:1500px;margin:auto;padding:18px 22px}
+.top{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
+h1{margin:0;font-size:27px}.stats{font-size:14px;color:#ccc}
+.controls{display:flex;gap:9px;flex-wrap:wrap;margin-top:15px}
+input,select,button{font:inherit;border:1px solid var(--line);border-radius:8px;padding:9px 11px}
+input,select{background:#fff;color:#222}
+#search{min-width:280px;flex:1}
+button{cursor:pointer;background:#fff;color:#222}
+main{max-width:1500px;margin:auto;padding:18px 22px 60px}
+.table-wrap{overflow:auto;background:var(--panel);border-radius:10px;border:1px solid #888}
+table{width:100%;border-collapse:collapse;color:var(--ink);font-size:13px;min-width:1350px}
+thead{position:sticky;top:0;background:#ddd;z-index:2}
+th,td{border-bottom:1px solid #aaa;padding:7px 8px;text-align:left;vertical-align:middle}
+th{font-weight:700;white-space:nowrap}
+tbody tr:nth-child(even){background:#d5d5d5}
+tbody tr:hover{background:#eee}
+.name{font-weight:700;min-width:190px}.cell{width:100%;border:1px solid transparent;background:transparent;border-radius:5px;padding:5px}
+.cell:focus{background:#fff;border-color:#888;outline:none}
+.logo-cell{width:250px;min-width:250px}
+.logo-preview{width:36px;height:36px;object-fit:contain;border-radius:5px;background:#eee;vertical-align:middle;margin-right:6px}
+.logo-path{width:185px!important;display:inline-block!important}
+.bool{font-size:19px;text-align:center;width:75px}.bool button{border:0;background:transparent;font-size:19px;padding:2px 7px}
+.bool button.yes{color:#16833b}.bool button.no{color:#a33}
+.genres{min-width:220px}.genre-pills{display:flex;flex-wrap:wrap;gap:4px;align-items:center}
+.pill{background:#e8e8e8;border:1px solid #aaa;border-radius:999px;padding:3px 7px;font-size:11px}
+.edit-genres{padding:5px 8px;font-size:11px;margin-left:3px}
+.url{min-width:280px}.rownum{color:#777;width:45px;text-align:center}
+.note{color:#bbb;font-size:12px;margin-top:10px}.empty{padding:60px;text-align:center;color:#666}
+
+/* Genre modal */
+.modal-backdrop{display:none;position:fixed;inset:0;background:rgba(0,0,0,.62);z-index:20;align-items:center;justify-content:center;padding:20px}
+.modal-backdrop.open{display:flex}
+.modal{width:min(720px,100%);max-height:85vh;overflow:auto;background:#eee;color:#222;border-radius:14px;box-shadow:0 20px 60px rgba(0,0,0,.45);padding:20px}
+.modal h2{margin:0 0 5px;font-size:21px}.modal p{margin:0 0 16px;color:#666;font-size:13px}
+.genre-options{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 20px}
+.genre-option{border:1px solid #999;background:#fff;color:#222;border-radius:999px;padding:8px 12px;cursor:pointer}
+.genre-option.selected{background:#808080;color:#fff;border-color:#808080}
+.modal-actions{display:flex;justify-content:flex-end;gap:8px;border-top:1px solid #ccc;padding-top:14px}
+.modal-actions button{padding:9px 16px}.save-genres{background:#808080;color:#fff;border-color:#808080}
+
+@media(max-width:700px){.wrap,main{padding-left:12px;padding-right:12px}#search{min-width:100%}}
+</style>
+</head>
+<body>
+
+<header>
+<div class="wrap">
+  <div class="top">
+    <h1>Station Manager</h1>
+    <div class="stats" id="stats">Loading…</div>
+  </div>
+  <div class="controls">
+    <input id="search" placeholder="Search stations…">
+    <select id="genre"><option value="">All Genres</option></select>
+    <select id="type"><option value="">All Types</option><option>Internet</option><option>On Air</option></select>
+    <select id="visibility"><option value="">All Visibility</option><option value="true">Visible</option><option value="false">Hidden</option></select>
+    <select id="favorite"><option value="">All Favorites</option><option value="true">Favorites</option><option value="false">Not Favorites</option></select>
+  </div>
+</div>
+</header>
+
+<main>
+<div class="table-wrap">
+<table>
+<thead><tr>
+<th>#</th><th>Logo</th><th>Station</th><th>Favorite</th><th>Visible</th>
+<th>Type</th><th>Genres</th><th>Stream</th><th>Website</th>
+</tr></thead>
+<tbody id="body"></tbody>
+</table>
+</div>
+<div class="note">Prototype only — edits are local to this page and are not written back to stations.json yet.</div>
+</main>
+
+<div class="modal-backdrop" id="genreModal">
+  <div class="modal">
+    <h2>Edit Genres</h2>
+    <p id="genreStation"></p>
+    <div class="genre-options" id="genreOptions"></div>
+    <div class="modal-actions">
+      <button onclick="closeGenreModal()">Cancel</button>
+      <button class="save-genres" onclick="saveGenres()">Save Genres</button>
+    </div>
+  </div>
+</div>
+
+<script>
+let stations=[];
+let genreEditIndex=-1;
+let genreEditSelection=[];
+
+const body=document.getElementById('body');
+const search=document.getElementById('search');
+const genre=document.getElementById('genre');
+const type=document.getElementById('type');
+const visibility=document.getElementById('visibility');
+const favorite=document.getElementById('favorite');
+const stats=document.getElementById('stats');
+const genreModal=document.getElementById('genreModal');
+const genreOptions=document.getElementById('genreOptions');
+const genreStation=document.getElementById('genreStation');
+
+function esc(v){
+  return String(v??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+}
+
+function allGenres(){
+  return [...new Set(stations.flatMap(s=>Array.isArray(s.genres)?s.genres:[]))]
+    .sort((a,b)=>a.localeCompare(b));
+}
+
+function populateGenres(){
+  genre.innerHTML='<option value="">All Genres</option>'+
+    allGenres().map(g=>`<option>${esc(g)}</option>`).join('');
+}
+
+function toggleBool(i,key){
+  stations[i][key]=stations[i][key]===true?false:true;
+  render();
+}
+
+function edit(i,key,value){
+  stations[i][key]=value;
+}
+
+function updateLogoPreview(i,img){
+  const input=document.getElementById('logo-'+i);
+  const value=input.value.trim();
+  img.src=value;
+  img.style.display=value?'inline-block':'none';
+}
+
+function openGenreModal(i){
+  genreEditIndex=i;
+  genreEditSelection=[...(stations[i].genres||[])];
+  genreStation.textContent=stations[i].name;
+  const gs=allGenres();
+  genreOptions.innerHTML=gs.map(g=>{
+    const selected=genreEditSelection.includes(g);
+    return `<button class="genre-option ${selected?'selected':''}" onclick="toggleGenre('${esc(g).replace(/'/g,"&#39;")}',this)">${esc(g)}</button>`;
+  }).join('');
+  genreModal.classList.add('open');
+}
+
+function toggleGenre(g,button){
+  const index=genreEditSelection.indexOf(g);
+  if(index>=0){
+    genreEditSelection.splice(index,1);
+    button.classList.remove('selected');
+  }else{
+    genreEditSelection.push(g);
+    button.classList.add('selected');
+  }
+}
+
+function saveGenres(){
+  if(genreEditIndex<0)return;
+  stations[genreEditIndex].genres=[...genreEditSelection];
+  closeGenreModal();
+  render();
+}
+
+function closeGenreModal(){
+  genreModal.classList.remove('open');
+  genreEditIndex=-1;
+}
+
+genreModal.addEventListener('click',e=>{
+  if(e.target===genreModal)closeGenreModal();
+});
+
+function render(){
+  const q=search.value.trim().toLowerCase();
+  const g=genre.value,t=type.value,v=visibility.value,f=favorite.value;
+  const rows=[];
+
+  stations.forEach((s,i)=>{
+    if(q&&!s.name.toLowerCase().includes(q))return;
+    if(g&&!(s.genres||[]).includes(g))return;
+    if(t&&s.type!==t)return;
+    if(v&&String(s.visible)!==v)return;
+    if(f&&String(s.favorite)!==f)return;
+    rows.push([s,i]);
+  });
+
+  stats.textContent=`${rows.length} of ${stations.length} stations`;
+
+  body.innerHTML=rows.length?rows.map(([s,i],n)=>{
+    const pills=(s.genres||[]).map(g=>`<span class="pill">${esc(g)}</span>`).join('');
+    return `<tr>
+      <td class="rownum">${n+1}</td>
+      <td class="logo-cell">
+        ${s.logo?`<img class="logo-preview" src="${esc(s.logo)}" onerror="this.style.opacity='.3'" alt="">`:''}
+        <input id="logo-${i}" class="cell logo-path" value="${esc(s.logo||'')}"
+          onchange="edit(${i},'logo',this.value);updateLogoPreview(${i},this.previousElementSibling)">
+      </td>
+      <td class="name"><input class="cell" value="${esc(s.name)}" onchange="edit(${i},'name',this.value)"></td>
+      <td class="bool"><button class="${s.favorite?'yes':'no'}" onclick="toggleBool(${i},'favorite')" title="Toggle favorite">${s.favorite?'★':'☆'}</button></td>
+      <td class="bool"><button class="${s.visible?'yes':'no'}" onclick="toggleBool(${i},'visible')" title="Toggle visibility">${s.visible?'✓':'✕'}</button></td>
+      <td>
+        <select class="cell" onchange="edit(${i},'type',this.value)">
+          <option ${s.type==='Internet'?'selected':''}>Internet</option>
+          <option ${s.type==='On Air'?'selected':''}>On Air</option>
+        </select>
+      </td>
+      <td class="genres">
+        <div class="genre-pills">${pills||'<span style="color:#777">None</span>'}
+          <button class="edit-genres" onclick="openGenreModal(${i})">Edit</button>
+        </div>
+      </td>
+      <td class="url"><input class="cell" value="${esc(s.stream)}" onchange="edit(${i},'stream',this.value)"></td>
+      <td class="url"><input class="cell" value="${esc(s.url)}" onchange="edit(${i},'url',this.value)"></td>
+    </tr>`;
+  }).join(''):`<tr><td colspan="9" class="empty">No stations match your filters.</td></tr>`;
+}
+
+[search,genre,type,visibility,favorite].forEach(el=>
+  el.addEventListener(el===search?'input':'change',render)
+);
+
+async function load(){
+  try{
+    const r=await fetch('stations.json',{cache:'no-store'});
+    if(!r.ok)throw new Error(`HTTP ${r.status}`);
+    const d=await r.json();
+    if(!Array.isArray(d.stations))throw new Error('Invalid stations array');
+    stations=d.stations;
+    populateGenres();
+    render();
+  }catch(e){
+    stats.textContent='Unable to load stations.json';
+    body.innerHTML='<tr><td colspan="9" class="empty">Unable to load stations.json.<br>Make sure station-manager.html is in the same directory as stations.json.</td></tr>';
+  }
+}
+load();
+</script>
+</body>
+</html>
