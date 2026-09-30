@@ -54,6 +54,14 @@ tbody tr:hover{background:#eee}
 .genre-option{border:1px solid #aaa;background:#f5f5f5;border-radius:999px;padding:7px 11px;cursor:pointer}
 .genre-option.selected{background:#222;color:#fff;border-color:#222}
 .modal-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:16px}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:11px}
+.form-field{display:flex;flex-direction:column;gap:5px}
+.form-field.full{grid-column:1/-1}
+.form-field label{font-size:12px;font-weight:700}
+.form-field input,.form-field select{width:100%}
+.check-row{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+.check-row label{display:flex;align-items:center;gap:6px;font-size:13px}
+@media(max-width:700px){.form-grid{grid-template-columns:1fr}.form-field.full{grid-column:auto}}
 @media(max-width:700px){.wrap,main{padding-left:12px;padding-right:12px}#search{min-width:100%}}
 </style>
 </head>
@@ -70,7 +78,7 @@ tbody tr:hover{background:#eee}
 <select id="type"><option value="">All Types</option><option>Internet</option><option>On Air</option></select>
 <select id="visibility"><option value="">All Visibility</option><option value="true">Visible</option><option value="false">Hidden</option></select>
 <select id="favorite"><option value="">All Favorites</option><option value="true">Favorites</option><option value="false">Not Favorites</option></select>
-<button class="export" id="exportBtn" type="button">Export stations.json</button>
+<button class="export" id="addBtn" type="button">＋ Add Station</button><button class="export" id="exportBtn" type="button">Export stations.json</button>
 </div>
 </div>
 </header>
@@ -82,8 +90,28 @@ tbody tr:hover{background:#eee}
 <tbody id="body"></tbody>
 </table>
 </div>
-<div class="note">Edits are local to this page. Use “Export stations.json” to download the updated JSON.</div>
+<div class="note">Edits and new stations are local to this page. Use “Export stations.json” to download the updated JSON.</div>
 </main>
+
+
+<div class="modal-backdrop" id="addModal">
+<div class="modal">
+<h2>Add Station</h2>
+<div class="form-grid">
+  <div class="form-field full"><label for="newName">Station Name</label><input id="newName" type="text" placeholder="Station name"></div>
+  <div class="form-field full"><label for="newStream">Stream URL</label><input id="newStream" type="text" placeholder="https://..."></div>
+  <div class="form-field full"><label for="newLogo">Logo Path</label><input id="newLogo" type="text" placeholder="images/station-logo.png"></div>
+  <div class="form-field full"><label for="newUrl">Website</label><input id="newUrl" type="text" placeholder="https://..."></div>
+  <div class="form-field"><label for="newType">Type</label><select id="newType"><option>Internet</option><option>On Air</option></select></div>
+  <div class="form-field"><label>Options</label><div class="check-row"><label><input id="newFavorite" type="checkbox"> Favorite</label><label><input id="newVisible" type="checkbox" checked> Visible</label></div></div>
+  <div class="form-field full"><label>Genres</label><div class="genre-options" id="newGenreOptions"></div></div>
+</div>
+<div class="modal-actions">
+<button type="button" id="cancelAdd">Cancel</button>
+<button type="button" id="createStation">Add Station</button>
+</div>
+</div>
+</div>
 
 <div class="modal-backdrop" id="genreModal">
 <div class="modal">
@@ -101,6 +129,7 @@ let stations=[];
 let genreReference=[];
 let editingGenreIndex=null;
 let pendingGenres=[];
+let newStationGenres=[];
 
 const body=document.getElementById('body');
 const search=document.getElementById('search');
@@ -131,6 +160,78 @@ function toggleBool(i,key){
 
 function edit(i,key,value){
   stations[i][key]=value;
+}
+
+
+function renderNewGenreOptions(){
+  const source=genreReference.length
+    ? genreReference
+    : [...new Set(stations.flatMap(s=>Array.isArray(s.genres)?s.genres:[]))];
+  const gs=[...new Set(source)].sort((a,b)=>a.localeCompare(b));
+  const target=document.getElementById('newGenreOptions');
+  target.innerHTML=gs.map(g=>{
+    const selected=newStationGenres.includes(g);
+    return `<button type="button" class="genre-option ${selected?'selected':''}" data-genre="${esc(g)}">${esc(g)}</button>`;
+  }).join('');
+  target.querySelectorAll('.genre-option').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      const g=btn.dataset.genre;
+      if(newStationGenres.includes(g)){
+        newStationGenres=newStationGenres.filter(x=>x!==g);
+      }else{
+        newStationGenres.push(g);
+      }
+      renderNewGenreOptions();
+    });
+  });
+}
+
+function openAddStation(){
+  document.getElementById('newName').value='';
+  document.getElementById('newStream').value='';
+  document.getElementById('newLogo').value='';
+  document.getElementById('newUrl').value='';
+  document.getElementById('newType').value='Internet';
+  document.getElementById('newFavorite').checked=false;
+  document.getElementById('newVisible').checked=true;
+  newStationGenres=[];
+  renderNewGenreOptions();
+  document.getElementById('addModal').classList.add('open');
+  document.getElementById('newName').focus();
+}
+
+function closeAddStation(){
+  document.getElementById('addModal').classList.remove('open');
+}
+
+function createStation(){
+  const name=document.getElementById('newName').value.trim();
+  const stream=document.getElementById('newStream').value.trim();
+  if(!name){
+    alert('Please enter a station name.');
+    document.getElementById('newName').focus();
+    return;
+  }
+  if(!stream){
+    alert('Please enter a stream URL.');
+    document.getElementById('newStream').focus();
+    return;
+  }
+
+  stations.push({
+    name:name,
+    stream:stream,
+    url:document.getElementById('newUrl').value.trim(),
+    logo:document.getElementById('newLogo').value.trim(),
+    favorite:document.getElementById('newFavorite').checked,
+    type:document.getElementById('newType').value,
+    genres:[...newStationGenres],
+    visible:document.getElementById('newVisible').checked
+  });
+
+  populateGenres();
+  render();
+  closeAddStation();
 }
 
 function openGenreEditor(i){
@@ -221,6 +322,14 @@ function render(){
 
 [search,genre,type,visibility,favorite].forEach(el=>{
   el.addEventListener(el===search?'input':'change',render);
+});
+
+
+document.getElementById('addBtn').addEventListener('click',openAddStation);
+document.getElementById('cancelAdd').addEventListener('click',closeAddStation);
+document.getElementById('createStation').addEventListener('click',createStation);
+document.getElementById('addModal').addEventListener('click',e=>{
+  if(e.target===document.getElementById('addModal'))closeAddStation();
 });
 
 document.getElementById('cancelGenres').addEventListener('click',closeGenreEditor);
