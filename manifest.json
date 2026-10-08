@@ -1,9 +1,9 @@
 {
   "name": "Radio Stations",
   "short_name": "Radio Stations",
-  "id": "/RadioStations/",
-  "start_url": "/RadioStations/",
-  "scope": "/RadioStations/",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
