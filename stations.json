@@ -4173,6 +4173,42 @@
         "Rock"
       ],
       "visible": true
+    },
+    {
+      "name": "The Lynx Retro 80s",
+      "stream": "https://80s-lynxradio.radioca.st/stream",
+      "url": "https://www.lynxradionetwork.com/",
+      "logo": "images/TheLynx.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "80s"
+      ],
+      "visible": true
+    },
+    {
+      "name": "The Lynx Classic Rock",
+      "stream": "https://rock-lynxradio.radioca.st/stream",
+      "url": "https://www.lynxradionetwork.com/",
+      "logo": "images/TheLynx.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Classic Rock"
+      ],
+      "visible": true
+    },
+    {
+      "name": "The Lynx Country Classics",
+      "stream": "https://country-lynxradio.radioca.st/stream",
+      "url": "https://www.lynxradionetwork.com/",
+      "logo": "images/TheLynx.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Country"
+      ],
+      "visible": true
     }
   ]
 }
