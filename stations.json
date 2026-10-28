@@ -4209,6 +4209,84 @@
         "Country"
       ],
       "visible": true
+    },
+    {
+      "name": "KNAC FM",
+      "stream": "https://s6.autopo.st/proxy/ggjdvxin?mp=/stream",
+      "url": "https://www.knac.com/",
+      "logo": "images/KNAC.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Rock",
+        "Classic Rock"
+      ],
+      "visible": true
+    },
+    {
+      "name": "97X",
+      "stream": "https://cmg.streamguys1.com/tam1015hd2/tam1015hd2-sgplayer-aac",
+      "url": "https://www.97xonline.com/",
+      "logo": "images/97X.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Alternative",
+        "Rock"
+      ],
+      "visible": true
+    },
+    {
+      "name": "KSHE 95 REAL ROCK",
+      "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/KSHEFMAAC.aac",
+      "url": "https://www.kshe95.com/",
+      "logo": "images/KSHE95.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Rock",
+        "Classic Rock"
+      ],
+      "visible": true
+    },
+    {
+      "name": "94 HJY",
+      "stream": "https://n22b-e2.revma.ihrhls.com/zc2049/34_1hl4jz95hr5at02/playlist.m3u8",
+      "url": "https://94hjy.iheart.com/",
+      "logo": "images/94HJY.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Rock",
+        "Classic Rock"
+      ],
+      "visible": true
+    },
+    {
+      "name": "107.7 The End",
+      "stream": "https://live.amperwave.net/manifest/audacy-knddfmaac-hlsc.m3u8",
+      "url": "https://www.audacy.com/1077theend",
+      "logo": "images/1077TheEnd.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Rock",
+        "Alternative"
+      ],
+      "visible": true
+    },
+    {
+      "name": "Radio 104.1 WMRQ",
+      "stream": "https://stream-02.surfernetwork.com/420cc782a30tv",
+      "url": "https://www.radio1041.com/",
+      "logo": "images/1041WMRQ.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Rock",
+        "Alternative"
+      ],
+      "visible": true
     }
   ]
 }
