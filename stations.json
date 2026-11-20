@@ -4287,6 +4287,47 @@
         "Alternative"
       ],
       "visible": true
+    },
+    {
+      "name": "97.5 RadioX",
+      "stream": "https://corn.kvsc.org/radiox",
+      "url": "https://975radiox.com/",
+      "logo": "images/975RadioX.png",
+      "favorite": true,
+      "type": "Internet",
+      "genres": [
+        "Grunge",
+        "Alternative",
+        "Rock"
+      ],
+      "visible": true
+    },
+    {
+      "name": "Eagle 98.1",
+      "stream": "https://prod-44-211-192-142.amperwave.net/guaranty-wdglfmaac-hlsc1.m3u8",
+      "url": "https://eagle981.com/",
+      "logo": "images/Eagle981.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "Classic Rock",
+        "Rock"
+      ],
+      "visible": true
+    },
+    {
+      "name": "93.7 KRKE - The Eighties Channel",
+      "stream": "https://ffvnet1.net:8443/krke",
+      "url": "https://www.kmrichards.com/KRKE/",
+      "logo": "images/937KRKE.png",
+      "favorite": true,
+      "type": "On Air",
+      "genres": [
+        "80s",
+        "Pop",
+        "Rock"
+      ],
+      "visible": true
     }
   ]
 }
